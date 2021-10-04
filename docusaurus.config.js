@@ -55,9 +55,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'keep-going/index',
+            docId: 'learn-security/index',
             position: 'left',
-            label: 'Keep Going',
+            label: 'Learn DevSec',
           },
           {to: 'integrations', label: 'Integrations', position: 'left'},
           {to: 'blog', label: 'Blog', position: 'left'},
