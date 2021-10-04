@@ -1,6 +1,20 @@
-# Website
+# Contrast Dev Site
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+We'll work here until we work elsewhere. This just makes it easy to show.
+
+npm install
+npm start
+localhost 3000
+
+Audience for site:
+- Devs who are supposed to use Contrast and encountering it.
+- Devs who want to "know security" scoped to our vision.
+
+Audience is not:
+- General security knowledge (too broad)
+- AppSec (except maybe to give them materials for the user)
 
 ### Installation
 
