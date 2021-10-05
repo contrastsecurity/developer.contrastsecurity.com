@@ -21,6 +21,7 @@ Specifically when writing software, developers are responsible for:
 - Custom code of the application and interaction with libraries
 - Any runtime used to execute the code
 - Middleware components shared between microservices
+- The way that the application interacts with everything else in the shared responsibility model.
 
 ## Approaches to Security
 
