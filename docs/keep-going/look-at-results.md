@@ -29,4 +29,4 @@ Vulnerabilities are split into different severities. Developers focused on fixin
 
 ## Verifying your fix with a re-test
 
-st
+Once you fix a result, simply re-run the impacted code with the security monitoring agent. The agent will detect any related changes to the code and automatically close the issue.
