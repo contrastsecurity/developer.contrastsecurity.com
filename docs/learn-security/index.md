@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Learn Security
 
 Security is a vast large topic across many disciplines. The best way to learn about security is to focus on things relevant to what you are working on and learn security in context.
@@ -25,7 +29,7 @@ Specifically when writing software, developers are responsible for:
 
 ## Approaches to Security
 
-## Software Bill of Materials (SBOM)
+### Software Bill of Materials (SBOM)
 
 An SBOM is a list of software used to create an application. By gathering a list of components, users can look at these components to determine if the software contains any known vulnerabilities. When a new vulnerability is discovered, software owners can check the SBOMs for their software to see if it impacts them.
 
@@ -36,3 +40,11 @@ SBOMs deal with libraries, runtimes, and often middleware.
 Threat modeling is a means of looking at an application to determine what data it has, how it is exposed, and what can go wrong. Thread models should start with automation to establish a scope and can then be paired with brainstorming to expand upon the automated model.
 
 Threat modeling deals most often with custom code and middleware.
+
+## Things you should not do
+
+Security is expansive and security fits into everything. Attacks often change and many attacks, while interesting, are not relevant to your application. Do not start with a vague or broad scope unrelated to things you are working on. Rather than aiming to "learn security," leverage automated tools to hone in what security means in your context and branch out from there.
+
+Developers receive more benefit from defensive security, to build secure applications, rather than offensive security, of learning about attacks.
+
+One simple way to establish this focus is to ask, "what am I defending and what am I defending it from."

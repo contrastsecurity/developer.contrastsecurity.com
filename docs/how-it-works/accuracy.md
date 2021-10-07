@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Accuracy
 
-All tools focus on a level of high accuracy. 
+All tools focus on a level of high accuracy. Teams with limited time should focus on Critical vulnerabilities with few, if any cases where a tool is wrong.
 
 ## Contrast Assess, the runtime agent
 Accuracy is gained by monitoring code execution and reporting on events that it was able to observe. Accuracy is commonly measured through suites like the entire [OWASP Benchmark](https://owasp.org/www-project-benchmark/).
