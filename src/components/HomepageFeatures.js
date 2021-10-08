@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Security testing in your application about 15 minutes.
+        <a href="docs/getting-started/where-do-i-start">Security results for your app in under 15 minutes.</a>
       </>
     ),
   },
