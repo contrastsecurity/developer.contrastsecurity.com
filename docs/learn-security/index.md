@@ -8,7 +8,7 @@ Security is a vast large topic across many disciplines. The best way to learn ab
 
 Another approach is to focus on defense of your application and its assets. There are many attacks. Attacks change and many of them will not impact you. Many of the attacks that can impact you will be similar in nature.
 
-## Security and Developer Responsibility
+## What Developers Do and Don't Do
 
 Application developers are responsible for the security of the code: how it handles sensitive data and how it interacts with the environment.
 
