@@ -4,9 +4,9 @@ sidebar_position: 4
 
 # Integrations
 
-Once your team is familiar with looking at and acting on results, make the process easier by adding [integrations](/integrations).
+Once your team is familiar with looking at and acting on results, make the process easier by adding [integrations](https://www.contrastsecurity.com/application-lifecycle-integrations).
 
-Contrast offers [integrations](/integrations) with many different system types:
+Contrast offers [integrations](https://www.contrastsecurity.com/application-lifecycle-integrations) with many different system types:
 - Cloud Integrations, for deployment and monitoring.
 - Defect Tracking Systems, to highlight critical issues in the normal workflow and prevent unplanned work.
 - Chat tools, to quickly notify team members when a new vulnerability is discovered. Pairs well with Defect Tracker Integration.

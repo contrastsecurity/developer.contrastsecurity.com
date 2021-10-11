@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Learn DevSec',
           },
-          {to: 'integrations', label: 'Integrations', position: 'left'},
+          {href: 'https://www.contrastsecurity.com/application-lifecycle-integrations', label: 'Integrations', position: 'left'},
           {to: 'blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Contrast-Security-OSS',
