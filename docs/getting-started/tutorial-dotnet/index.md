@@ -2,9 +2,24 @@
 sidebar_position: 1
 ---
 
-# Securing .NET and/or .NET Core Applications
+# How it works for .NET and .NET Core
 
-Automated tools give developers accurate security context at different phases of development without the need to become a dedicated security expert. Choose the part of development that you are securing:
- 
-- During testing, a monitoring agent works inside the application to gather accurate security information from running APIs.
-- In production, a performance-optimized security agent works inside the application to defend specific APIs against specific threats.
+Contrast provides a service that analyzes .NET and .NET Core applications on Windows and Linux.
+
+## Windows Service
+
+To secure your application, Contrast will install a Windows service. This service will monitor IIS and IIS Express to engage each application with a customized security profiler.
+
+The service is named "Contrast  Service" within the services control panel. Once installed, the service monitors all .NET applications with the opportunity to add exclusions.
+
+The security profiler will monitor API execution to for security events, and supports simultaneous use of other profilers through [Profiler Chaining](https://docs.contrastsecurity.com/en/-net-framework-profiler-chaining.html).
+
+## Linux
+
+The techniques to engage .NET Core on Linux are similar to Windows. All work is focused on the [Common Language Runtime (CLR)](https://docs.microsoft.com/en-us/dotnet/standard/clr).
+
+## References
+
+[.NET Profiler API](https://docs.microsoft.com/en-us/dotnet/framework/unmanaged-api/profiling/profiling-overview)
+[Profiler Chaining .NET](https://docs.contrastsecurity.com/en/-net-framework-profiler-chaining.html)
+[Profiler Chaining .NET Core](https://docs.contrastsecurity.com/en/-net-core-profiler-chaining.html)

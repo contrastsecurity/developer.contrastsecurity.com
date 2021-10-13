@@ -7,7 +7,8 @@ sidebar_position: 1
 There are a few different technologies that developers can use to secure builds. The easiest path for the most success with the least work is:
 ![diagram](where-do-i-start.svg)
 
-At the end of this setup, you will have automated tools that check your code for security defects.
+At the end of this setup, you will have automated tools that check your code and libraries for security defects. Results will appear locally and pass through a service that supports your IDE and other workflow tools.
+![Architecture](../how-it-works/how-it-works.png)
 
 ## 1. Set Up Your Free Account
 

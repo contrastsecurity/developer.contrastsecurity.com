@@ -13,9 +13,9 @@ Developers benefit from looking at security results because they can act on and 
 Security teams benefit from looking at results to understand where they can help. from using the analyzer to improving architecture by partnering up.
 
 Results can be viewed in several ways:
-- Through a web browser (most common)
-- Through an IDE plugin (for developers)
-- Linked with other systems, such as in-chat links when new vulnerabilities are found.
+- [Through a web browser](#viewing-your-results-web) (most common)
+- [Through an IDE plugin (for developers)](#viewing-your-results-ide-plugin)
+- [Linked with other systems](https://www.contrastsecurity.com/application-lifecycle-integrations), such as in-chat links when new vulnerabilities are found.
 
 ## Viewing your results (Web)
 
