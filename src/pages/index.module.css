@@ -9,8 +9,8 @@
   position: relative;
   overflow: hidden;
   background-color: #3ABFAE !important;
-  background: url(/img/dna-pattern.png) repeat;
-  background-size: 300px;
+  background: url(/img/cs-devsec-portal-bg-v2.jpg) repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 966px) {

@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('../../static/img/catty-boh.svg').default,
     description: (
       <>
-        <a href="integrations">Connect security automation</a> with other tools: defect tracking, SIEM, Chat, workflow tools, and more.
+        <a href="https://www.contrastsecurity.com/application-lifecycle-integrations">Connect security automation</a> with other tools: defect tracking, SIEM, Chat, workflow tools, and more.
       </>
     ),
   },

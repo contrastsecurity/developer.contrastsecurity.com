@@ -13,8 +13,8 @@ Accuracy is gained by monitoring code execution and reporting on events that it 
 
 ## Contrast OSS, the composition analyzer
 Accuracy is gained by tracking dependencies at two points:
-- At build time, the analyzer obtains libraries from the build tool that looks up and downloads dependencies.
-- At run time, the analyzer observes package information for all loaded files. The benefit of run time tracking is the ability to distinguish libraries that are present but not used by the application.
+- At build time, the analyzer obtains libraries from the build tool that looks up and downloads dependencies. This data comes from the build tool.
+- At run time, the analyzer observes package information for all loaded files. The benefit of run time tracking is the ability to distinguish libraries that are present but not used by the application. This data comes from enumerating the avaliable application libraries and monitoring what is loades.
 
 ## Contrast Scan, the static analysis tool
 Accuracy is gained by focusing analysis on remotely accessible code endpoints first. Rather than tracing all possible paths to report all possible issues, Contrast Scan looks at the application's attack surface and tracks from there. Accuracy is commonly measured through suites like the [NIST Juliet Suite](https://samate.nist.gov/SARD/testsuite.php)
