@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+title: Where do I start
+hide_table_of_contents: true
+
+---
+import Link from '@docusaurus/Link'
+export const frameworks = [
+  {
+    name: 'Java',
+    logo: '/img/libraries/java.png',
+    href: 'tutorial-java/securing-build-time',
+  },
+  {
+    name: '.NET',
+    logo: '/img/libraries/dotnet.png',
+    href: 'tutorial-dotnet/dotnet-core',
+  },
+  { name: '.NET Core', logo: '/img/libraries/dotnet-core.png', href: 'tutorial-dotnet/index' },
+  { name: 'Ruby', logo: '/img/libraries/ruby.png', href: 'tutorial-ruby/index' },
+  { name: 'Python', logo: '/img/libraries/python.png', href: 'tutorial-python/index' },
+  {
+    name: 'Node JS',
+    logo: '/img/libraries/node.png',
+    href: 'tutorial-node/index',
+  },
+  { name: 'Go', logo: '/img/libraries/go.png', href: 'tutorial-golang/index' },
+  { name: 'AppSec Team', logo: '/img/libraries/appsec.png', href: 'security-teams/index' },
+]
+
+Shift security left by starting in your IDE or build pipeline. By continuously looking for security flaws across your build, you can automate many security tasks and avoid unplanned work.<br/>
+![diagram](where-do-i-start.svg)
+
+At the end of this setup, you will have automated tools that check your code and libraries for security defects. Results will appear locally and pass through a service that supports your IDE and other workflow tools.
+![Architecture](../how-it-works/how-it-works.png)
+
+## 1. Set Up Your Free Account
+
+The free [Contrast Community Edition Account](https://www.contrastsecurity.com/contrast-community-edition) will set you up to start tracking results.
+
+If your organization has a commercial Contrast subscription should log in to your Contrast tenant.
+
+## 2. Choose your language
+
+If you work with different languages, start with the one you use the most.
+
+<div class="container" style={{}}>
+  <div class="row is-multiline">
+    {frameworks.map((x) => (
+      <div key={x.name} class="col col--3">
+        <Link class="card" to={x.href}>
+          <div class="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+            {x.logo && (
+              <img src={x.logo} alt={x.name} width="64" style={{ display: 'block', maxHeight: 64 }} />
+            )}
+            <p>{x.name}</p>
+          </div>
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>

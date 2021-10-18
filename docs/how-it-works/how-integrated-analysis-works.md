@@ -1,8 +1,8 @@
 # How Integrated Analysis Works
 
 Integrated analysis works by placing statements into running code using the safe and appropriate technique for each language:
-- Java uses Instrumentation
-- .NET uses Profiling
+- Java uses [Instrumentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.instrument/java/lang/instrument/package-summary.html)
+- .NET uses [Profiling](https://docs.microsoft.com/en-us/dotnet/framework/unmanaged-api/profiling/profiling-overview)
 - Node uses function wrapping
 - Go uses compiled delegation
 - and so on...

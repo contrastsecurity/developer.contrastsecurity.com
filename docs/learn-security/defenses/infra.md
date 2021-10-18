@@ -10,6 +10,8 @@ Infrastructure as code is part of the AWS pillar of operational excellence. It i
 
 ## Infrastructure concerns for developers
 
+Many security-sensitive assets are part of the system, not the infrastructure. System commands, files, or anything to which the operator is provisioned. If someone can compromise the app, they can take whatever that app has.
+
 - Ensure that secure applications are deployed on a secure infrastructure.
 - Ensure that there is a way to detect application-level breaches that occur within the infrastructure.
 - Leverage the infrastructure to prevent lateral movements if an application is breached.

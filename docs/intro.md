@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Intro
+hide_table_of_contents: true
 ---
 
 # Security from the inside-out

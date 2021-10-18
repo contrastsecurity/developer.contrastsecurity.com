@@ -4,10 +4,6 @@ sidebar_position: 3
 
 # Look at Results
 
-Who: Developer and/or Security Teams, often independently.<br/>
-Time Needed: Variable but generally 30 min or under.<br/>
-What you get: Clear security results that you can fix
-
 Security results are made available in a central console for review, where they can integrate into other systems.<br/>
 Developers benefit from looking at security results because they can act on and fix any issues.
 Security teams benefit from looking at results to understand where they can help. from using the analyzer to improving architecture by partnering up.
