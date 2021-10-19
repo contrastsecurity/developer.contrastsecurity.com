@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Contrast DevSec',
   tagline: 'Security from the inside-out',
   url: 'https://contrastsecurity.com',
-  baseUrl: '/',
+  baseUrl: '/developer/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -48,7 +48,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         hideOnScroll: true,
         logo: {
           alt: 'Dev Site Logo',
-          src: 'img/ninja-cat.svg',
+          src: '/img/ninja-cat.svg',
         },
         items: [
           {
@@ -63,8 +63,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Learn DevSec',
           },
-          {href: 'https://www.contrastsecurity.com/application-lifecycle-integrations', label: 'Integrations', position: 'left'},
-          {to: 'blog', label: 'Blog', position: 'left'},
+          {to: '/events', label: 'Events', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Contrast-Security-OSS',
             label: 'GitHub',
