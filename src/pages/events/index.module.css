@@ -9,8 +9,12 @@
   position: relative;
   overflow: hidden;
   background-color: #3ABFAE !important;
+  color: white;
   background: url(/img/cs-devsec-portal-bg-v1.jpg) repeat;
-  background-size: cover;
+}
+
+main {
+  padding-left: 10em;
 }
 
 .video, .audio{
@@ -19,8 +23,8 @@
 
 .event{
   border-radius: 15px;
-  background-color:gray;
-  
+  background-color:#292929;
+  padding: .5em .5em .5em .5em !important;
   margin: 1em 1em 1em 1em;
   padding: 1em;
 } 

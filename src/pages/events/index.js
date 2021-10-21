@@ -19,26 +19,31 @@ function HomepageHeader() {
 
 function Events() {
   return (
-    <div>
-      <div className={clsx(styles.event, styles.video)}>
+    <div class="eventsContainer row is-multiline">
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2><a href="https://www.contrastsecurity.com/cs/c/?cta_guid=920e993f-1d4a-443d-8c10-47bbb08deac3&signature=AAH58kE8Ko-0mEhgkEJo76Z7H-5VwBHuKQ&pageId=33327473111&placement_guid=701a2281-ec79-47a5-a400-752c0aa6b670&click=a0eac031-9855-4af6-ab56-0bc36a7e9c72&hsutk=&canon=https%3A%2F%2Fwww.contrastsecurity.com%2Fevents&portal_id=203759&redirect_url=APefjpERfNi-CDc3TScfrcfvJvoEWHsPs9G_ljfDUoJ4i-xJ2-3ufCN2iUI-tzLS8ZIt0JSXuHsDrpAexxxS_N6lgXmKcruTsQKeivtd-bR6WkEWSIww3S259eHVL20xVodc7jQErmRf1-e4IWvLqJM_7Tofr1XxUA" target="_blank">Serverless Security</a></h2>
         <h3>October 28</h3>
         <p className={clsx(styles.desc)}>A panel of serverless experts will discuss findings and insights from a new report on serverless application security. Attendees will learn what serverless application rates look like, how early serverless adopters are using application security, if serverless applications pose the same risk as traditional application environments, how teams want to consume serverless application security, and much more.</p>
+        <Link
+            className="button button--secondary button--lg"
+            href="https://www.contrastsecurity.com/cs/c/?cta_guid=920e993f-1d4a-443d-8c10-47bbb08deac3&signature=AAH58kENiRxWfBv1WVJnB3gBU3NCd7fiJQ&pageId=33327473111&placement_guid=701a2281-ec79-47a5-a400-752c0aa6b670&click=586f535c-e7ed-46ab-ab2a-da7837e54dc9&hsutk=&canon=https%3A%2F%2Fwww.contrastsecurity.com%2Fevents&portal_id=203759&redirect_url=APefjpFh5I3mA70X_QHPdIAiAh61IjP2omqTvyrp-1jB5d1Qp3rvd65IZMmaWWeivEhAyR9Uy2vbru-6TfFM2cE99t8AbxQIxMs355yrJu8gE6wNxYpJa3lYWY_h65d7UwJbhhKxC1ixd-zoD1S3SxGUUZWR__Evqw" target="_blank">
+            Event Page
+          </Link>
       </div>
-      <div className={clsx(styles.event, styles.video)}>
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2><a href="https://www.contrastsecurity.com/cs/c/?cta_guid=920e993f-1d4a-443d-8c10-47bbb08deac3&signature=AAH58kE8Ko-0mEhgkEJo76Z7H-5VwBHuKQ&pageId=33327473111&placement_guid=701a2281-ec79-47a5-a400-752c0aa6b670&click=a0eac031-9855-4af6-ab56-0bc36a7e9c72&hsutk=&canon=https%3A%2F%2Fwww.contrastsecurity.com%2Fevents&portal_id=203759&redirect_url=APefjpERfNi-CDc3TScfrcfvJvoEWHsPs9G_ljfDUoJ4i-xJ2-3ufCN2iUI-tzLS8ZIt0JSXuHsDrpAexxxS_N6lgXmKcruTsQKeivtd-bR6WkEWSIww3S259eHVL20xVodc7jQErmRf1-e4IWvLqJM_7Tofr1XxUA" target="_blank">GOTO Copenhagen</a></h2>
         <h3>November 8-12</h3>
         <h3>Copenhagen - Big Bio Nordhaven</h3>
         <p className={clsx(styles.desc)}>Contrast is a gold sponsor of the GOTO Copenhagen conference, a limited space tech event with only 500 attendees.</p>
       </div>
-      <div className={clsx(styles.event, styles.video)}>
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2><a href="https://www.meetup.com/Jacksonville-JAVA-User-Group-JaxJUG/events/281219238/" target="_blank">Securing and Exploiting Java Applications</a></h2>
         <h3>October 20, 2021</h3>
         <h3>Jacksonville Java User Group<br/>Foojay World Tour.</h3>
         <p className={clsx(styles.desc)}>OpenJDK 17 makes the interesting decision that deprecating a security feature (the SecurityManager) can actually improve security of the platform and running applications, setting out a path to remove a feature that hasn’t been used and hasn’t blocked many exploits.<br/>
           <a href="https://www.meetup.com/Jacksonville-JAVA-User-Group-JaxJUG/events/281219238/" target="_blank">Registration</a></p>
       </div>
-      <div className={clsx(styles.event, styles.video)}>
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2>Podcast: Why are there so many JDKs</h2>
         <h3>October 19, 2021</h3>
         <h3>Jacksonville Java User Group<br/>Foojay World Tour.</h3>
@@ -53,13 +58,13 @@ Guests:
   <li>Erik Costlow, Developer Relations for Contrast Security, securing Java and non-Java applications.</li>
 </ul></p>
       </div>
-      <div className={clsx(styles.event, styles.video)}>
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2>Securing and Exploiting Java Applications</h2>
         <h3>Bangladesh Java User Group<br/>Foojay World Tour.</h3>
         <p className={clsx(styles.desc)}>OpenJDK 17 makes the interesting decision that deprecating a security feature (the SecurityManager) can actually improve security of the platform and running applications, setting out a path to remove a feature that hasn’t been used and hasn’t blocked many exploits.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/78O8lmS0jRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div className={clsx(styles.event, styles.audio)}>
+      <div className={clsx('col', 'col--5', styles.event, styles.video)}>
         <h2>Podcast: Journey to Jakarta</h2>
         <h3>Foojay Podcast</h3>
         <p className={clsx(styles.desc)}>Foojay community members discuss the modernization of Jakarta EE applications from the older Java EE form, including backwards-compatibility, as well as forwards-excitement about cool new developments like Microprofile.</p>

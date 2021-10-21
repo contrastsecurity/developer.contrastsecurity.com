@@ -44,11 +44,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         defaultMode: 'dark'
       },
       navbar: {
-        title: 'Contrast DevSec',
+        title: '',
         hideOnScroll: true,
         logo: {
           alt: 'Dev Site Logo',
-          src: '/img/ninja-cat.svg',
+          src: '/img/cs-devsec-1.png',
         },
         items: [
           {
