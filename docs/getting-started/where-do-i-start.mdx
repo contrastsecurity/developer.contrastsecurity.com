@@ -32,12 +32,12 @@ If your organization has a commercial Contrast subscription should log in to you
 
 If you work with different languages, start with the one you use the most.
 
-<div class="container" style={{}}>
-  <div class="row is-multiline">
+<div className="container" style={{}}>
+  <div className="row is-multiline">
     {frameworks.map((x) => (
-      <div key={x.name} class="col col--3">
-        <Link class="card" to={x.href}>
-          <div class="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+      <div key={x.name} className="col col--3">
+        <Link className="card" to={x.href}>
+          <div className="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
             {x.logo && (
               <img src={x.logo} alt={x.name} width="64" style={{ display: 'block', maxHeight: 64 }} />
             )}
