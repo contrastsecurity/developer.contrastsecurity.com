@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Contrast DevSec',
-  tagline: 'Security from the inside-out',
+  tagline: 'Fast security for applications: your code, your libraries, and everything in-between.',
   url: 'https://contrastsecurity.com',
   baseUrl: '/developer/',
   onBrokenLinks: 'throw',
@@ -38,7 +38,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
         defaultMode: 'dark'
@@ -52,16 +51,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            //type: 'doc',
+            to: '/docs/getting-started/where-do-i-start',
             position: 'left',
             label: 'Getting Started',
+            activeBaseRegex: 'getting-started'
           },
           {
-            type: 'doc',
-            docId: 'learn-security/index',
+            //type: 'doc',
+            to: '/docs/learn-security/index',
             position: 'left',
             label: 'Learn DevSec',
+            activeBaseRegex: 'learn-security'
           },
           {to: '/events', label: 'Events', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
