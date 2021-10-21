@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Getting Started',
-    Svg: require('../../static/img/superhero-cat.svg').default,
+    Svg: require('../../static/img/undraw_start_building_vqhd.svg').default,
     description: (
       <>
         <a href="docs/getting-started/where-do-i-start">Security results for your app in under 15 minutes.</a>
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Reference Documentation',
-    Svg: require('../../static/img/detective-cat.svg').default,
+    Svg: require('../../static/img/undraw_online_reading_np7n.svg').default,
     description: (
       <>
         <a href="https://docs.contrastsecurity.com" target="_blank">Tool Documentation</a><br/>
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Integrations',
-    Svg: require('../../static/img/catty-boh.svg').default,
+    Svg: require('../../static/img/undraw_good_team_m7uu.svg').default,
     description: (
       <>
         <a href="https://www.contrastsecurity.com/application-lifecycle-integrations">Connect security automation</a> with other tools: defect tracking, SIEM, Chat, workflow tools, and more.

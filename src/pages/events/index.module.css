@@ -11,6 +11,8 @@
   background-color: #3ABFAE !important;
   color: white;
   background: url(/img/cs-devsec-portal-bg-v1.jpg) repeat;
+  min-height: 500px;
+  width: 100%;
 }
 
 main {

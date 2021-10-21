@@ -11,6 +11,17 @@
   background-color: #3ABFAE !important;
   color: white;
   background: url(/img/cs-devsec-portal-bg-v2.jpg) repeat;
+  min-height: 500px;
+  width: 100%;
+}
+
+.heroText{
+  min-width: 50%;
+}
+
+.full{
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 966px) {
