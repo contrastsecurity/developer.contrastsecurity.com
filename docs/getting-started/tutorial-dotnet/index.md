@@ -10,7 +10,9 @@ Contrast provides a service that analyzes .NET and .NET Core applications on Win
 
 To secure your application, Contrast will install a Windows service. This service will monitor IIS and IIS Express to engage each application with a customized security profiler.
 
-The service is named "Contrast  Service" within the services control panel. Once installed, the service monitors all .NET applications with the opportunity to add exclusions.
+The service is named "Contrast.NET Main Service" within the services control panel. Once installed, the service monitors all .NET applications with the opportunity to add exclusions.
+
+![Contrast.NET Service](dotnet-service.png)
 
 The security profiler will monitor API execution to for security events, and supports simultaneous use of other profilers through [Profiler Chaining](https://docs.contrastsecurity.com/en/-net-framework-profiler-chaining.html).
 
