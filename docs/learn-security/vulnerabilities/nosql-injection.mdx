@@ -1,0 +1,23 @@
+# NoSQL Injection
+
+## What is NoSQL Injection
+NoSQL Injection is a situation where a remote attacker can impact the query sent to a NoSQL database: SparQL, JSON documents, Gremlin, or anything else.
+NoSQL Injection is similar to SQL Injection where the result is often to obtain additional records.
+
+## When can NoSQL Injection affect my application
+
+NoSQL Injection affects applications that use NoSQL databases. It can occur more frequently with NoSQL databases that permit free-form String input rather than those that parameterize queries.
+
+## How do I know if/where my application has a X vulnerability
+
+Contrast Assess can detect NoSQL Injection as an application is tested.
+
+## How do I fix NoSQL Injection
+
+For NoSQL databases whose APIs permit parameterization, use the parameterized query with any input.
+For NoSQL databases that do not provide parameterized APIs, create an allow-list of characters that can be used.
+
+## How do people attack NoSQL Injection flaws
+
+Remote attackers can attack NoSQL Injection flaws by changing or adding query terms.
+This can include techniques such as adding JSON attributes or similar means to control other query languages.

@@ -1,0 +1,28 @@
+# XPath Injection
+
+## What is XPath Injection
+
+XPath Injection lets attackers access parts of an XML document that may contain additional information that they should not have.
+By modifying the XPath query, attackers can obtain this additional, possibly sensitive data.
+
+## When can XPath Injection affect my application
+
+XPath Injection affects applications that process XML documents and query those documents through the XPath syntax.
+XPath Injection does not impact applications that do not parse XML, but similar vulnerabilities exist for other document query languages.
+
+## How do I know if/where my application has an XPath Injection vulnerability
+
+Contrast Assess can detect if users can control XPath queries as an application is tested.
+
+## How do I fix XPath Injection
+
+Developers should create an allow-list of permitted XPath queries rather than using input as the query.
+If user input must go into the query, consider using an allow-list of what is permitted.
+
+## How do people attack XPath Injection flaws
+
+Attackers often attempt to inject query control characters for XPath queries.
+These will often leave a trailing ' character to balance the injection. It is difficult to create a deny-list of characters to stop the attack.
+```xml
+account' or true or 'a'='
+```
