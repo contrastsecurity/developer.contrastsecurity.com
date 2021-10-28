@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # How it works
 
-Automated tools give developers accurate security context at different phases of development without the need to become a dedicated security expert. Choose the part of development that you are securing:
+Contrast provides automated tools that work on or in your code to find security flaws at different stages of development.
+
+Choose the part of development that you are securing:
  
 ![Diagram of components](how-it-works.png)
 
