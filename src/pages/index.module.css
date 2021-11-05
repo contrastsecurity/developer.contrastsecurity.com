@@ -21,7 +21,7 @@
 
 .full{
   width: 100%;
-  max-width: 100%;
+  max-width: 100% !important; /* Order changes between dev and build so need to win */
 }
 
 @media screen and (max-width: 966px) {
