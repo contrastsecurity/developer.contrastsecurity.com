@@ -42,6 +42,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       colorMode: {
         defaultMode: 'dark'
       },
+      algolia: { //Search engine
+        appId: 'BH4D90D16A',
+        apiKey: 'app',
+        indexName: 'contrast-dev'
+      },
       navbar: {
         title: '',
         hideOnScroll: true,
@@ -59,13 +64,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             //type: 'doc',
-            to: '/docs/learn-security/index',
+            to: '/docs/learn-devsec/index',
             position: 'left',
             label: 'Learn DevSec',
-            activeBaseRegex: 'learn-security'
+            activeBaseRegex: 'learn-devsec'
           },
           {to: '/events', label: 'Events', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'DevSec Blog', position: 'left'},
           {
             href: 'https://github.com/Contrast-Security-OSS',
             label: 'GitHub',
@@ -110,7 +115,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'DevSec Blog',
                 to: 'blog',
               },
               {
