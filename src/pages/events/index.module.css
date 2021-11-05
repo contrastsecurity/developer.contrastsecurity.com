@@ -19,6 +19,25 @@ main {
   padding-left: 10em;
 }
 
+.invitation{
+  border-left: 3px solid white;
+}
+
+.break{
+  max-width: 75%;
+}
+
+.huhy{
+  
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+
 .video, .audio{
   border: 1px solid black;
 }
@@ -26,6 +45,14 @@ main {
 .event{
   border-radius: 15px;
   background-color:#292929;
+  padding: .5em .5em .5em .5em !important;
+  margin: 1em 1em 1em 1em;
+  padding: 1em;
+}
+
+.meet{
+  border-radius: 15px;
+  background-color: slategray;
   padding: .5em .5em .5em .5em !important;
   margin: 1em 1em 1em 1em;
   padding: 1em;

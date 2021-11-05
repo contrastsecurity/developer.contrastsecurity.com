@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Learn Security
+# Learn DevSec
 
 Security is a vast large topic across many disciplines. The best way to learn about security is to focus on things relevant to what you are working on and learn security in context.
 
@@ -26,20 +26,6 @@ Specifically when writing software, developers are responsible for:
 - Any runtime used to execute the code
 - Middleware components shared between microservices
 - The way that the application interacts with everything else in the shared responsibility model.
-
-## Approaches to Security
-
-### Software Bill of Materials (SBOM)
-
-An SBOM is a list of software used to create an application. By gathering a list of components, users can look at these components to determine if the software contains any known vulnerabilities. When a new vulnerability is discovered, software owners can check the SBOMs for their software to see if it impacts them.
-
-SBOMs deal with libraries, runtimes, and often middleware.
-
-### Threat Modeling
-
-Threat modeling is a means of looking at an application to determine what data it has, how it is exposed, and what can go wrong. Thread models should start with automation to establish a scope and can then be paired with brainstorming to expand upon the automated model.
-
-Threat modeling deals most often with custom code and middleware.
 
 ## Things you should not do
 
