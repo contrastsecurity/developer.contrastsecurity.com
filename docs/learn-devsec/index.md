@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # Learn DevSec
 
+Learning DevSec is designed for developers who have already started adding DevSec automation to their toolchain and just want to know "the rest."
+
+This contains other bits of information to understand what "security" means in context. The benefit of DevSec is that the security tools make it easier to point your attention at what a piece of security means and when you should pay attention to it.
+
 Security is a vast large topic across many disciplines. The best way to learn about security is to focus on things relevant to what you are working on and learn security in context.
 
 Another approach is to focus on defense of your application and its assets. There are many attacks. Attacks change and many of them will not impact you. Many of the attacks that can impact you will be similar in nature.

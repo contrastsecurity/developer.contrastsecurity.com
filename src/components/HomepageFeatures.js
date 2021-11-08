@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Reference Documentation',
+    title: 'Product Reference',
     Svg: require('../../static/img/detective-cat.svg').default,
     description: (
       <>
