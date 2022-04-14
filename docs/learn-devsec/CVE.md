@@ -6,7 +6,7 @@ When left without any mitigating control, many applications are left vulnerable 
 
 ## How do I know if I have a CVE?
 
-The easiest way for developers to see if their application contains a CVE is to create an [SBOM](finding/sbom) and compare those entries to the CVE database. This is more easily done by automated tools than humans.
+The easiest way for developers to see if their application contains a CVE is to create an [SBOM](finding/sbom.md) and compare those entries to the CVE database. This is more easily done by automated tools than humans.
 
 ## Does the absence of CVEs mean I'm secure?
 
