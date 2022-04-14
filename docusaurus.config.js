@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Contrast DevSec',
   tagline: 'Fast security for applications: your code, your libraries, and everything in-between.',
-  url: 'https://contrastsecurity.com',
-  baseUrl: '/developer/',
+  url: 'https://developer.contrastsecurity.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Contrast-OSS', // Usually your GitHub org/user name.
-  projectName: 'devsite', // Usually your repo name.
+  organizationName: 'contrastsecurity', // Usually your GitHub org/user name.
+  projectName: 'developer.contrastsecurity.com', // Usually your repo name.
+  trailingSlash: true,
 
   presets: [
     [
@@ -22,13 +23,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/erikcostlow/contrast-dev-site/edit/main/website/',
+          editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/erikcostlow/contrast-dev-site/edit/main/website/blog/',
+            'https://github.com/contrastsecurity/developer.contrastsecurity.com/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,7 +73,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {to: '/events', label: 'Events', position: 'left'},
           {to: '/blog', label: 'DevSec Blog', position: 'left'},
           {
-            href: 'https://github.com/Contrast-Security-OSS',
+            href: 'https://github.com/contrastsecurity',
             label: 'GitHub',
             position: 'right',
           },
@@ -120,7 +121,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Contrast-Security-OSS',
+                href: 'https://github.com/contrastsecurity',
               },
             ],
           },
