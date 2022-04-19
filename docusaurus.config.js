@@ -23,13 +23,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/edit/master/website/',
+          editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/contrastsecurity/developer.contrastsecurity.com/edit/master/website/blog/',
+            'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
