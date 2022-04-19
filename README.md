@@ -12,9 +12,3 @@ npm run build
 ```
 npm run start
 ```
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true npm run deploy
-```
