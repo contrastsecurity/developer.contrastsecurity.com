@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcontrast_dev=self.webpackChunkcontrast_dev||[]).push([[1623],{1460:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/research","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

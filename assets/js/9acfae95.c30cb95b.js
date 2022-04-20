@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcontrast_dev=self.webpackChunkcontrast_dev||[]).push([[9663],{5133:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"log4j2","count":1,"permalink":"/blog/tags/log-4-j-2"}')}}]);
