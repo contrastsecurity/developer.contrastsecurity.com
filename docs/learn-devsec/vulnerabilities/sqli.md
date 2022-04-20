@@ -1,4 +1,6 @@
-# SQL Injection
+---
+title: SQL Injection
+---
 
 ## What is SQL Injection
 

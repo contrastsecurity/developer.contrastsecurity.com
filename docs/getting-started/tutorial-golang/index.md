@@ -1,8 +1,7 @@
 ---
+title: Securing Go Applications
 sidebar_position: 1
 ---
-
-# Securing Go Applications
 
 Contrast provides sensors for Go applications that work inside the application to gather accurate security information from the executing APIs.
 

@@ -1,8 +1,7 @@
 ---
+title: Securing Java Applications
 sidebar_position: 1
 ---
-
-# Securing Java Applications
 
 Automated tools give developers accurate security context at different phases of development without the need to become a dedicated security expert. Choose the part of development that you are securing:
 

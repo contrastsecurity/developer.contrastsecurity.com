@@ -1,4 +1,6 @@
-# How Static Analysis Works
+---
+title: How Static Analysis Works
+---
 
 The Contrast static analyzer works on source code and bytecode. The goal of this analyzer is to produce the primary critical issues that matter and avoid results overload.
 

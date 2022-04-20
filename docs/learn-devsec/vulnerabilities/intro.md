@@ -1,8 +1,8 @@
 ---
+title: Introduction
 sidebar_position: 1
 hide_table_of_contents: true
 ---
-# Introduction
 
 The Contrast analyzers can help you find find many types of vulnerability across many languages and frameworks. Not everything is listed here.
 

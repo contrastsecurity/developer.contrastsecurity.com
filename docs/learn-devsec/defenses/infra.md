@@ -1,4 +1,6 @@
-# Infrastructure Security
+---
+title: Infrastructure Security
+---
 
 Infrastructure is elements like networks, storage, and other items that enable applications to run.
 

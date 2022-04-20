@@ -1,8 +1,7 @@
 ---
+title: Look at Results
 sidebar_position: 3
 ---
-
-# Look at Results
 
 Security results are made available in a central console for review, where they can integrate into other systems.<br/>
 Developers benefit from looking at security results because they can act on and fix any issues.

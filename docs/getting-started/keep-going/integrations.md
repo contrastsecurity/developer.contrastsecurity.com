@@ -1,8 +1,7 @@
 ---
+title: Integrations
 sidebar_position: 4
 ---
-
-# Integrations
 
 Once your team is familiar with looking at and acting on results, make the process easier by adding [integrations](https://www.contrastsecurity.com/application-lifecycle-integrations).
 

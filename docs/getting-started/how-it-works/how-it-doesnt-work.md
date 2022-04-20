@@ -1,4 +1,6 @@
-# How it DOESN'T work
+---
+title: How It DOESN'T Work
+---
 
 As people compare DevSec with other technologies, we commonly explain what the technology isn't...
 

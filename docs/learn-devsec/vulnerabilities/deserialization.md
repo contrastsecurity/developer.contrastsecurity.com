@@ -1,4 +1,6 @@
-# Untrusted Deserialization
+---
+title: Untrusted Deserialization
+---
 
 ## What is Untrusted Deserialization
 

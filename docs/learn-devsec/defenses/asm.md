@@ -1,4 +1,6 @@
-# Application Security Monitoring
+---
+title: Application Security Monitoring
+---
 
 Application Security Monitoring is a way of securing applications by working inside of application APIs. This provides a fine-grained level of insight into how an application operates with the ability to offer protection at very precise locations, such as defending file access in the File APIs.
 

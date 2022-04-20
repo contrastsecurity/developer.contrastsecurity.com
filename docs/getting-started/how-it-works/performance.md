@@ -1,7 +1,7 @@
 ---
+title: Performance
 sidebar_position: 3
 ---
-# Performance
 
 Speed of execution is a crucial to execution. Security tooling performs differently in the three areas:
 

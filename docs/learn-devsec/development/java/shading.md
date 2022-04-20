@@ -3,8 +3,6 @@ title: Shading
 sidebar_position: 3
 ---
 
-# Shading
-
 [Shading](https://maven.apache.org/plugins/maven-shade-plugin/) is the act of consolidating many parts of an application into one. Shading has two parts:
 
  * Consolidate many JARs into one.

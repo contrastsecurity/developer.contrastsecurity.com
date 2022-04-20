@@ -1,8 +1,7 @@
 ---
+title: How It Works for .NET and .NET Core
 sidebar_position: 1
 ---
-
-# How it works for .NET and .NET Core
 
 Contrast provides a service that analyzes .NET and .NET Core applications on Windows and Linux.
 

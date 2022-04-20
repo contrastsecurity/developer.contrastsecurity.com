@@ -1,4 +1,6 @@
-# If you are an AppSec Professional
+---
+title: If you are an AppSec Professional
+---
 
 The role of AppSec teams in DevSec is to act as an enabling team. By providing self-service tools to developers and helping them use those tools, you can scale your security efforts more than if you engaged every team directly.
 

@@ -1,8 +1,7 @@
 ---
+title: .NET
 sidebar_position: 2
 ---
-
-# .NET
 
 .NET developers can secure their applications through automated monitoring as the application is used.
 

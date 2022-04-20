@@ -1,8 +1,7 @@
 ---
+title: "Getting Started: Test Security"
 sidebar_position: 3
 ---
-
-# Getting Started: Test security
 
 Done by: Application Developer<br/>
 Time needed: 15 minutes<br/>

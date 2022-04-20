@@ -1,8 +1,7 @@
 ---
+title: Accuracy
 sidebar_position: 2
 ---
-
-# Accuracy
 
 All tools focus on a level of high accuracy. Teams with limited time should focus on Critical vulnerabilities with few, if any cases where a tool is wrong.
 

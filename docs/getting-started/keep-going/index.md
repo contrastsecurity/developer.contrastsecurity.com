@@ -1,8 +1,7 @@
 ---
+title: Continuous Security
 sidebar_position: 1
 ---
-
-# Continuous Security
 
 Once basic security monitoring and detection are in place, the next steps are:
 - Looking at results, scoping where to get started on security.

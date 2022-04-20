@@ -3,6 +3,8 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  min-height: 300px;
+  min-width: 300px;
 }
 
 .featureSvg {

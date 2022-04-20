@@ -3,8 +3,6 @@ title: Logging
 sidebar_position: 2
 ---
 
-# Logging
-
 Java developers have a large number of choices for logging:
 
  * System Logger - introduced in Java 9 (2017), an API that acts as a facade to other loggers.

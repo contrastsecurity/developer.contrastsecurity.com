@@ -1,8 +1,7 @@
 ---
+title: "Getting Started: Build-Time Security"
 sidebar_position: 2
 ---
-
-# Getting Started: Build time security
 
 Done by: Application Developer
 

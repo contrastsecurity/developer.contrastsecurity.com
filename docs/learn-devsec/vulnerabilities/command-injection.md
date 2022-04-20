@@ -1,4 +1,6 @@
-# Command Injection
+---
+title: Command Injection
+---
 
 ## What is Command Injection
 Command Injection occurs when attackers can control system commands. Most often this occurs when user input is used as parameters to system utility calls.

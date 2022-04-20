@@ -1,8 +1,7 @@
 ---
+title: How It Works
 sidebar_position: 10
 ---
-
-# How it works
 
 The build phase components leverage static scanning of build artifacts. Details of each can be located in the product documentation.
 

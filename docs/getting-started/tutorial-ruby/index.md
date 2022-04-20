@@ -1,8 +1,7 @@
 ---
+title: "Getting Started: Runtime Security"
 sidebar_position: 1
 ---
-
-# Getting Started - Runtime Security
 
 Done by: Application Developer<br/>
 Time Needed: 15 minutes

@@ -1,4 +1,6 @@
-# SBOM
+---
+title: SBOM
+---
 
 An SBOM is a list of software used to create an application. By gathering a list of components, users can look at these components to determine if the software contains any known vulnerabilities. When a new vulnerability is discovered, software owners can check the SBOMs for their software to see if it impacts them.
 

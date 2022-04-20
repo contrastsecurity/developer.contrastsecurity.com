@@ -1,4 +1,6 @@
-# How Integrated Analysis Works
+---
+title: How Integrated Analysis Works
+---
 
 Integrated analysis works by placing statements into running code using the safe and appropriate technique for each language:
 - Java uses [Instrumentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.instrument/java/lang/instrument/package-summary.html)

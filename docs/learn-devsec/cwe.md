@@ -1,4 +1,6 @@
-# CWE
+---
+title: CWE
+---
 
 CWE is a [Common Weakness Enumeration](https://cwe.mitre.org/data/definitions/699.html). This represents the abstract vulnerability rather than a specific instance.
 

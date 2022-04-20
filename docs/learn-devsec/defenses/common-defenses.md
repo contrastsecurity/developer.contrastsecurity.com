@@ -1,8 +1,7 @@
 ---
+title: Common Active Defenses
 sidebar_position: 1
 ---
-
-# Common Active Defenses
 
 There are a few ways that organizations defend public-facing applications:
 

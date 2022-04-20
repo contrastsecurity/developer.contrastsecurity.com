@@ -1,4 +1,6 @@
-# IAST
+---
+title: IAST
+---
 
 Interactive Application Security Testing is a technique that embeds monitoring into running software to extract security-relevant information. This technique has a high level of accuracy because it simply observes what the runtime does and reports back.
 

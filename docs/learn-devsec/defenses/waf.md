@@ -1,4 +1,6 @@
-# WAF - Web Application Firewall
+---
+title: WAF - Web Application Firewall
+---
 
 WAFs are a network-level defense that typically operate on layer 7 HTTPS traffic. They typically monitor traffic for a few classes of attack. Cloud providers such as AWS and Azure offer WAF as a standard protection mechanism.
 - Network-level attack payloads, such as attacks that perform SQL Injection or XSS.

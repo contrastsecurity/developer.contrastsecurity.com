@@ -1,8 +1,7 @@
 ---
+title: How It Works
 sidebar_position: 1
 ---
-
-# How it works
 
 Contrast provides automated tools that work on or in your code to find security flaws at different stages of development.
 

@@ -3,8 +3,6 @@ title: Microsoft / Azure AKS
 sidebar_position: 2
 ---
 
-# Microsoft / Azure AKS
-
 This article covers an ultra-quick way to get started with incorporating security into your existing developer onboarding via GitHub Actions, Contrast Security and Azure AKS.
 
 GitHub Actions are everywhere. Whether you’re a part of an organization looking to scale workflows across the entire breadth of your business or a developer looking to get a leg up by incorporating new technologies and best practices into your automation stack, GitHub Actions and the GitHub Marketplace have you covered.

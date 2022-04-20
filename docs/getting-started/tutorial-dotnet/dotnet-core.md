@@ -1,8 +1,7 @@
 ---
+title: .NET Core
 sidebar_position: 3
 ---
-
-# .NET Core
 
 .NET Core developers can secure their applications through automated monitoring as the application is used, on Windows and Linux.
 

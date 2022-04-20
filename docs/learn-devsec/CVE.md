@@ -1,4 +1,6 @@
-# CVE
+---
+title: CVE
+---
 
 Common Vulnerabilities and Exposures (CVE) represents a known vulnerability, commonly in an application or framework. Most CVEs have known exploits that can be used to attack the application.
 

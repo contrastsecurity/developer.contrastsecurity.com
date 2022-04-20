@@ -4,7 +4,7 @@ title: What is DevSec
 hide_table_of_contents: true
 ---
 
-## DevSec is Security Self-Service Tools for Developers
+### DevSec is Security Self-Service Tools for Developers
 
 DevSec is a suite of techniques that enable developers to self-service on most security tasks. DevSec does not solve all security problems, rather it plugs high-accuracy automation into the right development spots to solve issues with a low cognitive burden.
 

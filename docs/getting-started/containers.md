@@ -1,8 +1,7 @@
 ---
+title: Containerized Apps
 sidebar_position: 8
 ---
-
-# Containerized Apps
 
 Security starts with what goes into the container. By securing the code that's inside the container, developers can:
 - Prevent data loss associated with their code.

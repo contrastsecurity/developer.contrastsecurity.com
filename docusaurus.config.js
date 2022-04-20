@@ -59,14 +59,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             //type: 'doc',
-            to: '/docs/getting-started/where-do-i-start',
+            to: '/docs/getting-started/where-do-i-start/',
             position: 'left',
             label: 'Getting Started',
             activeBaseRegex: 'getting-started'
           },
           {
             //type: 'doc',
-            to: '/docs/learn-devsec/index',
+            to: '/docs/learn-devsec/',
             position: 'left',
             label: 'Learn DevSec',
             activeBaseRegex: 'learn-devsec'

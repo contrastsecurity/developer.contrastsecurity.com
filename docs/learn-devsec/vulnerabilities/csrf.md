@@ -1,4 +1,6 @@
-# Cross Site Request Forgery
+---
+title: Cross Site Request Forgery
+---
 
 ## What is Cross Site Request Forgery
 
