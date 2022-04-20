@@ -41,7 +41,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     ({
       colorMode: {
-        defaultMode: 'dark'
+        defaultMode: 'dark',
+        disableSwitch: true
       },
       algolia: { //Search engine
         appId: 'BH4D90D16A',
