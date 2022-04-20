@@ -23,6 +23,12 @@ function Events() {
       
       <div class="eventsContainer row is-multiline">
         <div className={clsx('col', 'col--5', styles.event, styles.video)}>
+          <h2>Idaho JUG</h2>
+          <h3>February 10</h3>
+          <p className={clsx(styles.desc)}>A talk on Log4J, Java 17, the SecurityManager, and other items.</p>
+          <EventLink url="https://www.meetup.com/central-iowa-java-users-group/events/283202534/"></EventLink>
+        </div>
+        <div className={clsx('col', 'col--5', styles.event, styles.video)}>
           <h2>Serverless Security</h2>
           <h3>October 28</h3>
           <p className={clsx(styles.desc)}>A panel of serverless experts will discuss findings and insights from a new report on serverless application security. Attendees will learn what serverless application rates look like, how early serverless adopters are using application security, if serverless applications pose the same risk as traditional application environments, how teams want to consume serverless application security, and much more.</p>
