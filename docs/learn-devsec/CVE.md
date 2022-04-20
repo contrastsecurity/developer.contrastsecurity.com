@@ -17,10 +17,3 @@ In late 2021, Atlassian Confluence leveraged an OGNL library with no CVEs but le
 
 The presence of a CVE usually means that the application is insecure.<br/>
 Applications often import many dependencies but do not use all of the code from every dependency. In some cases applications may not load the vulnerable code. In this case teams can prioritize other security work ahead of this library since it is unused. At other times it is less work to patch and remove the CVE than to debate.
-
-## Do different vendors have "better" or "worse" CVE data?
-
-No. All vendors who offer CVE-based vulnerability data for applications or libraries use the exact same sources of data:
-- [Mitre CVE Database](https://cve.mitre.org/)
-- [National Vulnerability Database](https://nvd.nist.gov/vuln)
-- [Chinese National Vulnerability Database](https://www.cnvd.org.cn/)
