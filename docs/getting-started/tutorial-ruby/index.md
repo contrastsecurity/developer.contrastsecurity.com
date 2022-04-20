@@ -21,4 +21,4 @@ What you get: An agent that detects Ruby security flaws as the application runs.
 1. [Configure middleware](https://docs.contrastsecurity.com/en/ruby-configuration.html) (Rails or Sinatra)
 1. Run your application
 
-Once complete, you can [view your results](../../keep-going/look-at-results)
+Once complete, you can [view your results](../keep-going/look-at-results.md)
