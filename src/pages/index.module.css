@@ -8,9 +8,12 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #3ABFAE !important;
+  background-color: var(--ifm-color-primary) !important;
   color: white;
-  background: url(/img/cs-devsec-portal-bg-v2.jpg) repeat;
+  background: url(/img/navy-bg-log-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 500px;
   width: 100%;
 }

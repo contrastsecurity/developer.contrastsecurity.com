@@ -53,7 +53,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         hideOnScroll: true,
         logo: {
           alt: 'Dev Site Logo',
-          src: '/img/cs-devsec-1.png',
+          src: '/img/contrast-logo.png',
         },
         items: [
           {
@@ -110,6 +110,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Twitter',
                 href: 'https://twitter.com/contrastsec',
               },
+              {
+                label: 'Privacy Matters',
+                href: 'https://www.contrastsecurity.com/privacy-matters',
+              },
+              {
+                label: 'Terms of Service',
+                href: 'https://www.contrastsecurity.com/enduser-terms-0317a',
+              }
             ],
           },
           {
