@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: What is DevSec
+title: What is DevSec?
 hide_table_of_contents: true
 ---
 
@@ -23,7 +23,7 @@ DevSec fits into **agile** styles because its automation enables teams to get an
 
 DevSec fits into **team topologies** because the tools can often be provided and managed by an enabling team, freeing developers (a stream-aligned team) from the cognitive burden of always knowing and worrying about security.
 
-## How do I apply DevSec
+## How do I apply DevSec?
 
 You can do DevSec by adding automated security tooling into your regular development flow and making sure that results can be seen when they matter. 
 

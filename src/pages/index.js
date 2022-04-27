@@ -12,13 +12,13 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx(styles.full, 'eventsContainer', 'row', 'is-multiline', 'container')}>
         <div className={clsx('col', 'col--5', styles.heroText)}>
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">Start Now for Free with Serverless</h1>
+          <p className="hero__subtitle">Experience fast, dependable and seamless application security in your serverless environment with Contrast CLI. Get results in less than 3 minutes.</p>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/getting-started/where-do-i-start">
-              Secure your app - 15min ⏱️
+              to="/get-started">
+              Start Now
             </Link>
           </div>
         </div>

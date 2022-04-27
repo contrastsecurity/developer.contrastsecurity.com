@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/superhero-cat.svg').default,
     description: (
       <>
-        <a href="docs/getting-started/where-do-i-start">Security results for your app in under 15 minutes.</a>
+        <a href="/get-started">Security results in under 3 minutes.</a>
       </>
     ),
   },

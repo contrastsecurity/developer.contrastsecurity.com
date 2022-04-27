@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Contrast DevSec',
+  title: 'Contrast Developers',
   tagline: 'Fast security for applications: your code, your libraries, and everything in-between.',
   url: 'https://developer.contrastsecurity.com',
   baseUrl: '/',
@@ -21,6 +21,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: '/',
+          breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
@@ -38,17 +41,39 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      ({
+        fromExtensions: ['html', 'htm'],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/docs/contrast-platform')) {
+            return [
+              existingPath.replace('/docs/contrast-platform', '/docs/getting-started'),
+            ];
+          }
+          else if (existingPath.includes('/docs')) {
+            return [
+              existingPath.replace('/docs', '/docs/learn-devsec'),
+            ];
+          }
+          return undefined;
+        },
+      }),
+    ],
+  ],
+
   themeConfig:
     ({
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true
       },
-      algolia: { //Search engine
-        appId: 'BH4D90D16A',
-        apiKey: 'app',
-        indexName: 'contrast-dev'
-      },
+      // algolia: { //Search engine
+      //   appId: 'BH4D90D16A',
+      //   apiKey: 'app',
+      //   indexName: 'contrast-dev'
+      // },
       navbar: {
         title: '',
         hideOnScroll: true,
@@ -59,25 +84,33 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             //type: 'doc',
-            to: '/docs/getting-started/where-do-i-start/',
+            to: '/get-started',
             position: 'left',
-            label: 'Getting Started',
-            activeBaseRegex: 'getting-started'
+            label: 'Get Started',
+            activeBaseRegex: 'get-started'
           },
           {
             //type: 'doc',
-            to: '/docs/learn-devsec/',
+            to: '/docs',
             position: 'left',
             label: 'Learn DevSec',
-            activeBaseRegex: 'learn-devsec'
+            activeBaseRegex: 'docs'
           },
-          {to: '/events', label: 'Events', position: 'left'},
-          {to: '/blog', label: 'DevSec Blog', position: 'left'},
+          { 
+            to: '/events',
+            label: 'Events',
+            position: 'left',
+          },
           {
-            href: 'https://github.com/contrastsecurity',
-            label: 'GitHub',
-            position: 'right',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
           },
+          // {
+          //   href: 'https://github.com/contrastsecurity',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -105,7 +138,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },*/
               {
                 label: 'Careers',
-                href: 'https://www.contrastsecurity.com/careers'
+                to: '/careers',
               },
               {
                 label: 'Twitter',
@@ -113,11 +146,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Privacy Matters',
-                href: 'https://www.contrastsecurity.com/privacy-matters',
+                to: '/privacy'
               },
               {
                 label: 'Terms of Service',
-                href: 'https://www.contrastsecurity.com/enduser-terms-0317a',
+                href: '/enduser-terms',
               }
             ],
           },
@@ -125,7 +158,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'DevSec Blog',
+                label: 'Blog',
                 to: 'blog',
               },
               {
