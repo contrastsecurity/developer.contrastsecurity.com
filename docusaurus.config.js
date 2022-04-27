@@ -1,5 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const FontPreloadPlugin = require('webpack-font-preload-plugin');
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -73,6 +74,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
       }),
     ],
+    function preloadFontPlugin(_context, _options) {
+      return {
+        name: 'preload-font-plugin',
+        configureWebpack(_config, _isServer) {
+          return {
+            plugins: [new FontPreloadPlugin()],
+          };
+        },
+      };
+    },
   ],
 
   themeConfig:
