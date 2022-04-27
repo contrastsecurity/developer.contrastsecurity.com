@@ -98,13 +98,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           { 
             // to: '/events',
-            to: '/upcoming-events',
+            // to: '/upcoming-events',
+            href: 'https://www.contrastsecurity.com/upcoming-events',
             label: 'Events',
             position: 'left',
           },
           {
             // to: '/blog',
-            to: '/security-influencers',
+            // to: '/security-influencers',
+            href: 'https://www.contrastsecurity.com/security-influencers',
             label: 'Blog',
             position: 'left',
           },
@@ -140,7 +142,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },*/
               {
                 label: 'Careers',
-                to: '/careers',
+                // to: '/careers',
+                href: 'https://www.contrastsecurity.com/careers'
               },
               {
                 label: 'Twitter',
@@ -148,11 +151,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Privacy Matters',
-                to: '/privacy'
+                // to: '/privacy'
+                href: 'https://www.contrastsecurity.com/privacy-matters'
               },
               {
                 label: 'Terms of Service',
-                href: '/enduser-terms',
+                // href: '/enduser-terms',
+                href: 'https://www.contrastsecurity.com/enduser-terms-0317a'
               }
             ],
           },
