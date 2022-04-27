@@ -9,9 +9,9 @@ As people compare DevSec with other technologies, we commonly explain what the t
 Signatures look for common patterns in technology. The difficulty of signatures is that there are so many and it's impossible to be large and accurate.
 Contrast tech does not look for basic signatures like unsafe characters.<br/>
 Instead we look for unsafe combinations where APIs meet in an unsafe way:
-- [SQL injection](../../learn-devsec/vulnerabilities/sqli.md) does not occur because someone used an ' character, it occurs when a user controls query input. We track the control and have full visibility of the query from the database API.
-- [Command injection](../../learn-devsec/vulnerabilities/command-injection.md) occurs when any user input reaches a command shell.
-- [Path Traversal](../../learn-devsec/vulnerabilities/path-traversal.mdx) occurs when users can control the file being accessed and is most often exploited when the directories go up.
+- [SQL injection](../../vulnerabilities/sqli.md) does not occur because someone used an ' character, it occurs when a user controls query input. We track the control and have full visibility of the query from the database API.
+- [Command injection](../../vulnerabilities/command-injection.md) occurs when any user input reaches a command shell.
+- [Path Traversal](../../vulnerabilities/path-traversal.mdx) occurs when users can control the file being accessed and is most often exploited when the directories go up.
 
 ## It doesn't require fully perfect tests.
 No organization fully tests 100% of everything. It's unreasonable to demand full test coverage before you test security.

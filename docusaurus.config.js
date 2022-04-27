@@ -97,12 +97,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             activeBaseRegex: 'docs'
           },
           { 
-            to: '/events',
+            // to: '/events',
+            to: '/upcoming-events',
             label: 'Events',
             position: 'left',
           },
           {
-            to: '/blog',
+            // to: '/blog',
+            to: '/security-influencers',
             label: 'Blog',
             position: 'left',
           },
