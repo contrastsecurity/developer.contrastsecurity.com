@@ -30,7 +30,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
         },
         blog: {
-          path: 'archive/blog',
+          path: 'blog',
           showReadingTime: true,
           editUrl:
             'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/blog/',
