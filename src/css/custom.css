@@ -131,6 +131,7 @@
   --white-700: #fff;
   --white-800: #fff;
   --white-900: #fff;
+  --ifm-font-family-base: 'Akkurat Pro', sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -138,6 +139,16 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+@font-face {
+  font-family: 'Akkurat Pro';
+  src: url('Akkurat Pro.eot?#iefix') format('embedded-opentype'),
+  url('Akkurat Pro.woff') format('woff'),
+  url('Akkurat Pro.ttf') format('truetype'),
+  url('Akkurat Pro.svg#Akkurat%20Pro') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
