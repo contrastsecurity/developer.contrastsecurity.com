@@ -128,14 +128,14 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             activeBaseRegex: 'docs'
           },
           {
-            to: 'https://www.contrastsecurity.com/upcoming-events',
-            position: 'left',
-            label: 'Events',
-          },
-          {
             label: 'Blog',
             position: 'left',
             to: 'https://www.contrastsecurity.com/security-influencers',
+          },
+          {
+            to: 'https://www.contrastsecurity.com/upcoming-events',
+            position: 'left',
+            label: 'Events',
           },
         ],
       },
