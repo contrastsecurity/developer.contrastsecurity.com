@@ -167,3 +167,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* Mobile style */
+@media screen and (max-width: 996px) {
+  /* Fix left padding for docs pages */
+  main {
+    padding-left: 0 !important;
+  }
+  .hero .row
+  {
+    margin: 0;
+  }
+}

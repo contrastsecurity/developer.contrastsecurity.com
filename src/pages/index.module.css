@@ -29,7 +29,10 @@
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
+  }
+  .heroText{
+    padding-bottom: 2rem !important;
   }
 }
 
