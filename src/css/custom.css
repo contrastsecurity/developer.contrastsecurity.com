@@ -1647,6 +1647,11 @@ main {
   {
     margin: 0;
   }
+  .hero .row .col
+  {
+    margin: 0;
+    padding: 0;
+  }
   main {
     padding-left: 0 !important;
   }
