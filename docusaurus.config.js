@@ -106,38 +106,37 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
         },
         items: [
           {
-            //type: 'doc',
             to: '/get-started',
             position: 'left',
             label: 'Get Started',
             activeBaseRegex: 'get-started'
           },
           {
-            //type: 'doc',
+            to: 'https://docs.contrastsecurity.com',
+            position: 'left',
+            label: 'Documentation',
+          },
+          // {
+          //   to: 'https://api.contrastsecurity.com',
+          //   position: 'left',
+          //   label: 'API',
+          // },
+          {
             to: '/docs',
             position: 'left',
             label: 'Learn DevSec',
             activeBaseRegex: 'docs'
           },
-          { 
-            // to: '/events',
-            // to: '/upcoming-events',
+          {
             to: 'https://www.contrastsecurity.com/upcoming-events',
-            label: 'Events',
             position: 'left',
+            label: 'Events',
           },
           {
-            // to: '/blog',
-            // to: '/security-influencers',
-            to: 'https://www.contrastsecurity.com/security-influencers',
             label: 'Blog',
             position: 'left',
+            to: 'https://www.contrastsecurity.com/security-influencers',
           },
-          // {
-          //   to: 'https://github.com/contrastsecurity',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -151,17 +150,17 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
                 to: '/get-started',
               },
               {
-                label: 'Learn DevSec',
-                to: '/docs/learn-devsec',
-              },
-              {
                 label: 'Tools',
                 to: 'https://docs.contrastsecurity.com'
               },
               {
                 label: 'API',
                 to: 'https://api.contrastsecurity.com'
-              }
+              },
+              {
+                label: 'DevSec',
+                to: '/docs',
+              },
             ],
           },
           {
@@ -200,16 +199,16 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             title: 'More',
             items: [
               {
+                label: 'GitHub',
+                to: 'https://github.com/contrastsecurity',
+              },
+              {
                 label: 'Events',
                 to: 'https://www.contrastsecurity.com/upcoming-events',
               },
               {
                 label: 'Blog',
                 to: 'https://www.contrastsecurity.com/security-influencers',
-              },
-              {
-                label: 'GitHub',
-                to: 'https://github.com/contrastsecurity',
               },
             ],
           },

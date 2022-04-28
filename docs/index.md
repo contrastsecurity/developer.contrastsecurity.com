@@ -1,39 +1,30 @@
 ---
-title: Learn DevSec
-sidebar_position: 2
+sidebar_position: 1
+title: What is DevSec?
+hide_table_of_contents: true
 ---
 
-Learning DevSec is designed for developers who have already started adding DevSec automation to their toolchain and just want to know "the rest."
+## DevSec is Security Self-Service Tools for Developers
 
-This contains other bits of information to understand what "security" means in context. The benefit of DevSec is that the security tools make it easier to point your attention at what a piece of security means and when you should pay attention to it.
+DevSec is a suite of techniques that enable developers to self-service on most security tasks. DevSec does not solve all security problems, rather it plugs high-accuracy automation into the right development spots to solve issues with a low cognitive burden.
 
-Security is a vast large topic across many disciplines. The best way to learn about security is to focus on things relevant to what you are working on and learn security in context.
+Tools that support DevSec come in a few forms:
+- Tools that detect build/coding flaws:
+  - Composition analyzers, that look for known vulnerabilities in libraries.
+  - Static Analyzers, that look for coding flaws or code smells in individual files or traced between code and libraries.
+- Tools that get security results from applications as they are tested:
+  - Integrated analyzers, that watch inside of applications to extract security and/or performance information.
+- Tools that monitor and/or defend production applications:
+  - Application Security Monitoring, a technique for observing and tracing security flows within an application.
 
-Another approach is to focus on defense of your application and its assets. There are many attacks. Attacks change and many of them will not impact you. Many of the attacks that can impact you will be similar in nature.
+### Does DevSec fit into what I'm already doing?
 
-## What Developers Do and Don't Do
+DevSec fits into **agile** styles because its automation enables teams to get an act on specific security results during any sprints.
 
-Application developers are responsible for the security of the code: how it handles sensitive data and how it interacts with the environment.
+DevSec fits into **team topologies** because the tools can often be provided and managed by an enabling team, freeing developers (a stream-aligned team) from the cognitive burden of always knowing and worrying about security.
 
-In a cloud environment, application developers follow models such as the [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/). Cloud customers are responsible for:
-- Customer data
-- Platforms, Applications, Identity & Access Management
-- Operating System, Network & Firewall Management
-- Client-side data encryption & Data integrity authentication
-- Server-side encryption (file system and/or data)
-- Networking traffic protection (encryption integrity, identity)
+## How do I apply DevSec?
 
-Specifically when writing software, developers are responsible for:
-- Libraries used by the application
-- Custom code of the application and interaction with libraries
-- Any runtime used to execute the code
-- Middleware components shared between microservices
-- The way that the application interacts with everything else in the shared responsibility model.
+You can do DevSec by adding automated security tooling into your regular development flow and making sure that results can be seen when they matter. 
 
-## Things you should not do
-
-Security is expansive and security fits into everything. Attacks often change and many attacks, while interesting, are not relevant to your application. Do not start with a vague or broad scope unrelated to things you are working on. Rather than aiming to "learn security," leverage automated tools to hone in what security means in your context and branch out from there.
-
-Developers receive more benefit from defensive security, to build secure applications, rather than offensive security, of learning about attacks.
-
-One simple way to establish this focus is to ask, "what am I defending and what am I defending it from."
+When automated tools are in place, the important step is people looking at and acting on results. The value is in the remediation and fixing of any findings. Setting up a ceremonial tool whose results will be ignored is not DevSec.
