@@ -22,8 +22,8 @@ function HomepageHeader() {
             </Link>
           </div>
         </div>
-        <div className={clsx('col', 'col--6')}>
-        <iframe style={{ maxWidth: '100%' }} width="560" height="315" src="https://www.youtube.com/embed/8FwY6zJX1ms" title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className={clsx(styles.heroVideoWrapper, 'col', 'col--6')}>
+        <iframe className={clsx(styles.heroVideo)} width="560" height="315" src="https://www.youtube.com/embed/8FwY6zJX1ms" title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </header>

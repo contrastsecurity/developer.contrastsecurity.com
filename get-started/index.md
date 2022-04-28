@@ -2,15 +2,7 @@
 title: Get Started
 ---
 
-# Contrast CLI
-
 Scan your AWS Lambda functions and ensure security for policy permissions, dependencies and your code.
-
-This initial release supports both Java and Python functions.
-
-## Getting Started
-
-### Download
 
 You can install using [NPM](https://npmjs.com):
 
@@ -27,7 +19,7 @@ brew install contrast
 
 or download binaries for [Windows](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-windows.zip), [macOS](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-macos.tar.gz) and [Linux](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-linux.tar.gz).
 
-### Prerequisites
+## Prerequisites
 
 Make sure your AWS credentials are available. The Contrast CLI can find your credentials in one of the following ways:
 
@@ -40,7 +32,7 @@ You will also need the following permissions:
  * Lambda: [GetFunction](https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunction.html), [GetLayerVersion](https://docs.aws.amazon.com/lambda/latest/dg/API_GetLayerVersion.html)
  * IAM: [GetRolePolicy](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetRolePolicy.html), [GetPolicy](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetPolicy.html), [GetPolicyVersion](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetPolicyVersion.html), [ListRolePolicies](https://docs.aws.amazon.com/IAM/latest/APIReference/API_ListRolePolicies.html), [ListAttachedRolePolicies](https://docs.aws.amazon.com/IAM/latest/APIReference/API_ListAttachedRolePolicies.html)
 
-#### Example AWS Policy
+### Example AWS Policy
 
 ```json
 {
