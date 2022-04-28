@@ -147,9 +147,21 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/getting-started/where-do-i-start',
+                label: 'Get Started',
+                to: '/get-started',
               },
+              {
+                label: 'Learn DevSec',
+                to: '/docs/learn-devsec',
+              },
+              {
+                label: 'Tools',
+                to: 'https://docs.contrastsecurity.com'
+              },
+              {
+                label: 'API',
+                to: 'https://api.contrastsecurity.com'
+              }
             ],
           },
           {
@@ -188,8 +200,12 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             title: 'More',
             items: [
               {
+                label: 'Events',
+                to: 'https://www.contrastsecurity.com/upcoming-events',
+              },
+              {
                 label: 'Blog',
-                to: 'blog',
+                to: 'https://www.contrastsecurity.com/security-influencers',
               },
               {
                 label: 'GitHub',

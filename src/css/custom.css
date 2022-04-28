@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 :root {
   /* --ifm-color-primary: #0e9e53; */
-  --ifm-color-primary: #5aa99f;
+  --ifm-color-primary: #41837a;
   --ifm-color-primary-dark: #004d45;
   --ifm-color-primary-darker: #004d45;
   --ifm-color-primary-darkest: #004d45;
@@ -1616,6 +1616,7 @@ main {
 
 .footer__copyright
 {
+  padding-top: 1em;
   color: #757d88;
 }
 

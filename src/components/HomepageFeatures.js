@@ -4,38 +4,38 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started',
-    Svg: require('../../static/img/superhero-cat.svg').default,
+    title: 'Simple Self-Service',
+    icon: require('../../static/img/icon1.png').default,
     description: (
       <>
-        <a href="/get-started">Security results in under 3 minutes.</a>
+        Easy to <a href="/get-started">get started</a> with Contrast's developer-friendly sign-up process.
       </>
     ),
   },
   {
-    title: 'Product Reference',
-    Svg: require('../../static/img/detective-cat.svg').default,
+    title: 'Unparalleled Speed and Accuracy',
+    icon: require('../../static/img/icon2.png').default,
     description: (
       <>
-        <a href="https://docs.contrastsecurity.com" target="_blank">Tool Documentation</a><br/>
-        <a href="https://api.contrastsecurity.com" target="_blank">API Documentation</a>
+        Recognized as the fastest, most accurate scanning solution.
       </>
     ),
   },
   {
-    title: 'Integrations',
-    Svg: require('../../static/img/catty-boh.svg').default,
+    title: 'Quick and Seamless Integration',
+    icon: require('../../static/img/icon3.png').default,
     description: (
       <>
-        <a href="https://www.contrastsecurity.com/application-lifecycle-integrations">Connect security automation</a> with other tools: defect tracking, SIEM, Chat, workflow tools, and more.
+        Quick and easy integration into existing serverless environments.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
+      <img src={icon} />
       <div className="text--center padding-horiz--md">
         <h1>{title}</h1>
         <p>{description}</p>

@@ -37,7 +37,11 @@ export default function Home() {
       title={`Contrast Security - ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
+      <main class={clsx(styles.homepageFeatures)}>
+      <header>
+        <h1>Securing code made easy for all developers</h1>
+        <p>Contrast brings world-class enterprise level security right to the developers doorstep, giving Devs a fast, dependable, and seamless security experience.</p>
+      </header>
         <HomepageFeatures />
       </main>
     </Layout>
