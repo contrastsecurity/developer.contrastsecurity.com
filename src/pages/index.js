@@ -11,7 +11,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx(styles.full, 'eventsContainer', 'row', 'is-multiline', 'container')}>
-        <div className={clsx('col', 'col--5', styles.heroText)}>
+        <div className={clsx('col', 'col--6', styles.heroText)}>
           <h1 className="hero__title">Start Now for Free with Serverless</h1>
           <p className="hero__subtitle">Experience fast, dependable and seamless application security in your serverless environment with Contrast CLI. Get results in less than 3 minutes.</p>
           <div className={styles.buttons}>
@@ -22,7 +22,7 @@ function HomepageHeader() {
             </Link>
           </div>
         </div>
-        <div className={clsx('col', 'col--5')}>
+        <div className={clsx('col', 'col--6')}>
         <iframe style={{ maxWidth: '100%' }} width="560" height="315" src="https://www.youtube.com/embed/8FwY6zJX1ms" title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
