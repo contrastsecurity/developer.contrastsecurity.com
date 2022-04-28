@@ -1617,3 +1617,15 @@ main {
     padding-left: 0 !important;
   }
 }
+
+.footer__title
+{
+  font-family: 'Simula';
+  font-size: +1.5rem;
+  color: #606770
+}
+
+.footer__copyright
+{
+  color: #757d88;
+}
