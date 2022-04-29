@@ -24,8 +24,8 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs',
-          routeBasePath: 'docs',
+          path: 'learn',
+          routeBasePath: 'learn',
           breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
@@ -59,15 +59,22 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
       '@docusaurus/plugin-client-redirects',
       ({
         fromExtensions: ['html', 'htm'],
+        redirects: [
+          {
+            to: '/learn/getting-started/contrast-cli',
+            from: '/get-started',
+          },
+        ],
         createRedirects(existingPath) {
-          if (existingPath.includes('/docs/contrast-platform')) {
+          if (existingPath.includes('/learn/guides/devsec-with-contrast')) {
             return [
-              existingPath.replace('/docs/contrast-platform', '/docs/getting-started'),
+              existingPath.replace('/docs/getting-started/where-do-i-start', '/docs/getting-started'),
+              existingPath.replace('/learn/guides/devsec-with-contrast', '/docs/getting-started'),
             ];
           }
-          else if (existingPath.includes('/docs')) {
+          else if (existingPath.includes('/learn/guides/learn-devsec')) {
             return [
-              existingPath.replace('/docs', '/docs/learn-devsec'),
+              existingPath.replace('/learn/guides/learn-devsec', '/docs/learn-devsec'),
             ];
           }
           return undefined;
@@ -108,37 +115,38 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
         },
         items: [
           {
-            to: '/get-started',
+            type: 'dropdown',
+            label: 'Products',
             position: 'left',
-            label: 'Get Started',
-            activeBaseRegex: 'get-started'
-          },
-          {
-            to: 'https://docs.contrastsecurity.com',
-            position: 'left',
-            label: 'Documentation',
-          },
-          // {
-          //   to: 'https://api.contrastsecurity.com',
-          //   position: 'left',
-          //   label: 'API',
-          // },
-          {
-            to: '/docs',
-            position: 'left',
-            label: 'Learn DevSec',
-            activeBaseRegex: 'docs'
-          },
-          {
-            label: 'Blog',
-            position: 'left',
-            to: 'https://www.contrastsecurity.com/security-influencers',
+            items: [
+              {
+                label: 'Contrast CLI',
+                to: '/learn/getting-started/contrast-cli'
+              },
+              {
+                label: 'Contrast Platform',
+                to: 'https://www.contrastsecurity.com/platform',
+              },
+            ]
           },
           {
             to: 'https://www.contrastsecurity.com/upcoming-events',
-            position: 'left',
             label: 'Events',
           },
+          {
+            to: '/learn/getting-started/contrast-cli',
+            position: 'left',
+            label: 'Learn',
+            activeBaseRegex: 'learn'
+          },
+          {
+            label: 'Blog',
+            to: 'https://www.contrastsecurity.com/security-influencers',
+          },
+          // {
+          //   to: 'https://www.contrastsecurity.com/integration',
+          //   label: 'Integrations'
+          // },
           {
             to: 'https://github.com/contrastsecurity',
             position: 'right',
@@ -151,28 +159,20 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
         // style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Product',
             items: [
               {
-                label: 'Get Started',
-                to: '/get-started',
+                label: 'Contrast CLI',
+                to: '/learn/getting-started/contrast-cli',
               },
               {
-                label: 'Tools',
-                to: 'https://docs.contrastsecurity.com'
-              },
-              {
-                label: 'API',
-                to: 'https://api.contrastsecurity.com'
-              },
-              {
-                label: 'DevSec',
-                to: '/docs',
+                label: 'Contrast Platform',
+                to: 'https://www.contrastsecurity.com/platform'
               },
             ],
           },
           {
-            title: 'Contrast',
+            title: 'Company',
             items: [
               /*{
                 label: 'Stack Overflow',
@@ -182,6 +182,10 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
                 label: 'Discord',
                 to: 'https://discordapp.com/invite/docusaurus',
               },*/
+              {
+                label: 'About Us',
+                to: 'https://www.contrastsecurity.com/about-us'
+              },
               {
                 label: 'Careers',
                 // to: '/careers',
@@ -204,19 +208,25 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             ],
           },
           {
-            title: 'More',
+            title: 'Resources',
             items: [
-              {
-                label: 'GitHub',
-                to: 'https://github.com/contrastsecurity',
-              },
               {
                 label: 'Events',
                 to: 'https://www.contrastsecurity.com/upcoming-events',
               },
               {
+                label: 'Learn',
+                to: '/learn',
+              },
+          
+              
+              {
                 label: 'Blog',
                 to: 'https://www.contrastsecurity.com/security-influencers',
+              },
+              {
+                label: 'GitHub',
+                to: 'https://github.com/contrastsecurity',
               },
             ],
           },

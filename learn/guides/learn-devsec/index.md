@@ -1,6 +1,5 @@
 ---
 title: Learn DevSec
-sidebar_position: 2
 ---
 
 Learning DevSec is designed for developers who have already started adding DevSec automation to their toolchain and just want to know "the rest."

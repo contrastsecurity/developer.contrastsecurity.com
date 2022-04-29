@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: What is DevSec?
-hide_table_of_contents: true
 ---
 
 ## DevSec is Security Self-Service Tools for Developers
@@ -17,7 +16,7 @@ Tools that support DevSec come in a few forms:
 - Tools that monitor and/or defend production applications:
   - Application Security Monitoring, a technique for observing and tracing security flows within an application.
 
-### Does DevSec fit into what I'm already doing?
+## Does DevSec fit into what I'm already doing?
 
 DevSec fits into **agile** styles because its automation enables teams to get an act on specific security results during any sprints.
 
