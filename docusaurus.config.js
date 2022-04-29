@@ -89,8 +89,9 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
   themeConfig:
     ({
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true
+        defaultMode: 'light',
+        disableSwitch: false,
+        // respectPrefersColorScheme: false
       },
       // algolia: { //Search engine
       //   appId: 'BH4D90D16A',
@@ -99,9 +100,10 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
       // },
       navbar: {
         title: '',
+        style: 'dark',
         hideOnScroll: true,
         logo: {
-          alt: 'Dev Site Logo',
+          alt: 'Contrast',
           src: '/img/contrast-logo.png',
         },
         items: [
@@ -137,10 +139,16 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             position: 'left',
             label: 'Events',
           },
+          {
+            to: 'https://github.com/contrastsecurity',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
             title: 'Docs',

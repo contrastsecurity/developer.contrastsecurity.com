@@ -18,9 +18,13 @@
   width: 100%;
 }
 
+.heroBanner h1 {
+  color: white;
+}
+
 .homepageFeatures {
-  color: #222;
-  background-color: #FFF;
+  /* color: #222;
+  background-color: #FFF; */
   text-align: center;
   padding: 1rem 1rem 2rem 1rem !important;
 }
