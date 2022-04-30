@@ -1694,3 +1694,5 @@ a.card:hover
 {
   text-decoration: none;
 }
+
+html .navbar .navbar__logo { content: url(/img/contrast-logo-dark.png) !important }

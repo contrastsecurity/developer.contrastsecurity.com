@@ -108,10 +108,11 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
       navbar: {
         title: '',
         style: 'dark',
-        hideOnScroll: false,
+        hideOnScroll: true,
         logo: {
           alt: 'Contrast',
           src: '/img/contrast-logo.png',
+          srcDark: '/img/contrast-logo-dark.png',
         },
         items: [
           {
