@@ -44,17 +44,17 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
   ],
 
   plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'get-started',
-        path: 'get-started',
-        routeBasePath: 'get-started',
-        sidebarPath: false,
-        breadcrumbs: false,
-        editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'get-started',
+    //     path: 'get-started',
+    //     routeBasePath: 'get-started',
+    //     sidebarPath: false,
+    //     breadcrumbs: false,
+    //     editUrl: 'https://github.com/contrastsecurity/developer.contrastsecurity.com/blob/master/',
+    //   },
+    // ],
     [
       '@docusaurus/plugin-client-redirects',
       ({
@@ -67,8 +67,8 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
         ],
         createRedirects(existingPath) {
           if (existingPath.includes('/learn/guides/devsec-with-contrast')) {
+            existingPath = existingPath.replace('/docs/getting-started/where-do-i-start', '/docs/getting-started');
             return [
-              existingPath.replace('/docs/getting-started/where-do-i-start', '/docs/getting-started'),
               existingPath.replace('/learn/guides/devsec-with-contrast', '/docs/getting-started'),
             ];
           }
@@ -108,7 +108,7 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
       navbar: {
         title: '',
         style: 'dark',
-        hideOnScroll: true,
+        hideOnScroll: false,
         logo: {
           alt: 'Contrast',
           src: '/img/contrast-logo.png',
@@ -134,7 +134,7 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
             label: 'Events',
           },
           {
-            to: '/learn/getting-started/contrast-cli',
+            to: '/learn',
             position: 'left',
             label: 'Learn',
             activeBaseRegex: 'learn'
@@ -159,15 +159,27 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
         // style: 'dark',
         links: [
           {
-            title: 'Product',
+            title: 'Navigation',
             items: [
+              // {
+              //   label: 'Contrast CLI',
+              //   to: '/learn/getting-started/contrast-cli',
+              // },
+              // {
+              //   label: 'Contrast Platform',
+              //   to: 'https://www.contrastsecurity.com/platform'
+              // },
               {
-                label: 'Contrast CLI',
-                to: '/learn/getting-started/contrast-cli',
+                label: 'Events',
+                to: 'https://www.contrastsecurity.com/upcoming-events',
               },
               {
-                label: 'Contrast Platform',
-                to: 'https://www.contrastsecurity.com/platform'
+                label: 'Learn',
+                to: '/learn'
+              },
+              {
+                label: 'Blog',
+                to: 'https://www.contrastsecurity.com/security-influencers',
               },
             ],
           },
@@ -192,37 +204,31 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
                 to: 'https://www.contrastsecurity.com/careers'
               },
               {
-                label: 'Twitter',
-                to: 'https://twitter.com/contrastsec',
+                label: 'Terms of Service',
+                // to: '/enduser-terms',
+                to: 'https://www.contrastsecurity.com/enduser-terms-0317a'
               },
               {
                 label: 'Privacy Matters',
                 // to: '/privacy'
                 to: 'https://www.contrastsecurity.com/privacy-matters'
               },
-              {
-                label: 'Terms of Service',
-                // to: '/enduser-terms',
-                to: 'https://www.contrastsecurity.com/enduser-terms-0317a'
-              }
             ],
           },
           {
             title: 'Resources',
             items: [
               {
-                label: 'Events',
-                to: 'https://www.contrastsecurity.com/upcoming-events',
+                label: 'Twitter',
+                to: 'https://twitter.com/contrastsec',
               },
               {
-                label: 'Learn',
-                to: '/learn',
+                label: 'LinkedIn',
+                to: 'https://www.linkedin.com/company/contrast-security'
               },
-          
-              
               {
-                label: 'Blog',
-                to: 'https://www.contrastsecurity.com/security-influencers',
+                label: 'Facebook',
+                to: 'https://www.facebook.com/contrastsec/'
               },
               {
                 label: 'GitHub',

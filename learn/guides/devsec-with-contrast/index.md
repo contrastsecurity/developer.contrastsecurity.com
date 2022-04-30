@@ -30,7 +30,7 @@ The free [Contrast Community Edition Account](https://www.contrastsecurity.com/c
 
 If your organization has a commercial Contrast subscription should log in to your Contrast tenant.
 
-## 2. Choose your language
+## 2. Choose Your language
 
 If you work with different languages, start with the one you use the most.
 

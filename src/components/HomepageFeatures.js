@@ -8,7 +8,7 @@ const FeatureList = [
     icon: require('../../static/img/icon1.png').default,
     description: (
       <>
-        Easy to <a href="/get-started">get started</a> with Contrast's friendly setup process.
+        Easy to <a href="/learn/getting-started/contrast-cli">get started</a> with Contrast's friendly setup process.
       </>
     ),
   },

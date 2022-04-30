@@ -6,7 +6,7 @@ Interactive Application Security Testing is a technique that embeds monitoring i
 
 **Contrast Assess** is an IAST analyzer.
 
-## Benefits and drawbacks of IAST
+## Benefits and Drawbacks of IAST
 
 ### Benefits
 - IAST has a high accuracy rate and low false positive rate.
@@ -16,7 +16,7 @@ Interactive Application Security Testing is a technique that embeds monitoring i
 - IAST requires code execution, making it better for teams that test their software.
 - IAST has a performance impact limited to the environment being tested, making it harder for teams who test in production.
 
-## Comparisons to other detections
+## Comparisons to Other Detections
 
 ### Comparison to Static Analysis
 

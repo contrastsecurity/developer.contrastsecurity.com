@@ -2,37 +2,61 @@
 title: Contrast CLI
 ---
 
-Scan your AWS Lambda functions and ensure security for policy permissions, dependencies and your code.
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
 
-You can install using [NPM](https://npmjs.com):
+Scan your AWS Lambda functions and ensure security for policy permissions, dependencies and your code. Get started with three easy steps!
+
+## Step 1 &ndash; Install
+
+Open a command-prompt or terminal, then install with [NPM](https://npmjs.com) or [Homebrew](https://brew.sh/):
+
+<Tabs>
+<TabItem value="1" label="NPM">
 
 ```shell
 npm install -g @contrast/contrast
 ```
 
-[Homebrew](https://brew.sh/):
+</TabItem>
+<TabItem value="2" label="Homebrew">
 
 ```shell
 brew tap contrastsecurity/tap
 brew install contrast
 ```
 
-or download binaries for [Windows](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-windows.zip), [macOS](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-macos.tar.gz) and [Linux](https://github.com/contrastsecurity/contrast/releases/download/v1.0.0/contrast-1.0.0-linux.tar.gz).
+</TabItem>
+</Tabs>
 
-## Prerequisites
+## Step 2 &ndash; Authenticate
 
-Make sure your AWS credentials are available. The Contrast CLI can find your credentials in one of the following ways:
+Authenticate using your existing [GitHub](https://github.com) or [Google](https://google.com) account.
 
- * Configured in your user profile (usually located at `~/.aws/credentials`)
- * Using the `--profile` argument when running the CLI
- * Using `AWS_DEFAULT_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables
+```
+contrast auth
+```
 
-You will also need the following permissions:
+## Step 3 &ndash; Scan
+
+Use `contrast lambda` to scan your AWS Lambda functions:
+
+```
+contrast lambda --function-name MyFunctionName --region my-aws-region
+```
+
+![image](https://user-images.githubusercontent.com/289035/165555050-e9a709c9-f2a9-4edc-a064-8208445238bc.png)
+
+### AWS Policy
+
+Make sure you have the following AWS permissions enabled:
 
  * Lambda: [GetFunction](https://docs.aws.amazon.com/lambda/latest/dg/API_GetFunction.html), [GetLayerVersion](https://docs.aws.amazon.com/lambda/latest/dg/API_GetLayerVersion.html)
  * IAM: [GetRolePolicy](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetRolePolicy.html), [GetPolicy](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetPolicy.html), [GetPolicyVersion](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetPolicyVersion.html), [ListRolePolicies](https://docs.aws.amazon.com/IAM/latest/APIReference/API_ListRolePolicies.html), [ListAttachedRolePolicies](https://docs.aws.amazon.com/IAM/latest/APIReference/API_ListAttachedRolePolicies.html)
 
-### Example AWS Policy
+Here is an example AWS policy:
 
 ```json
 {
@@ -61,36 +85,15 @@ You will also need the following permissions:
 }
 ```
 
-## Running Your First Scan
+### AWS Credentials
 
-### Authenticate with Contrast
+The Contrast CLI can find your AWS credentials in one of the following ways:
 
-```
-contrast auth
-```
+ * Configured in your user profile (usually `~/.aws/credentials`)
+ * Using the `--profile` flag (`contrast lambda --profile myProfile`)
+ * Using `AWS_DEFAULT_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables
 
-### Scan a Lambda Function
-
-```
-contrast lambda --function-name <YOUR_FUNCTION_NAME> --region <AWS_REGION>
-```
-
-For more help, use the following command:
-
-```
-contrast lambda --help
-```
-
-## Commands
-
- * `contrast auth` &ndash; Authenticate using your GitHub or Google account
- * `contrast lambda` &ndash; Perform a scan on an AWS Lambda function
- * `contrast config` &ndash; Display your stored credentials
- * `contrast config --clear` &ndash; Remove your stored credentials
- * `contrast version` &ndash; Display the installed version of the Contrast CLI
- * `contrast help` &ndash; Display help
-
-## Example
+For more information on how to use the `lambda` command, run `contrast help`.
 
 ```shell
 contrast lambda --function-name myFunctionName
@@ -99,5 +102,3 @@ contrast lambda -f myFunctionName --region eu-central-1 --profile myDevProfile
 contrast lambda -f myFunctionName -v -j -r eu-central-1 -p myDevProfile
 contrast lambda --function-name myFunctionName --verbose --json-output --region eu-central-1 --profile myDevProfile
 ```
-
-![image](https://user-images.githubusercontent.com/289035/165555050-e9a709c9-f2a9-4edc-a064-8208445238bc.png)

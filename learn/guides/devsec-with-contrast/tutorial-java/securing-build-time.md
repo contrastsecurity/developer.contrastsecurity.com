@@ -9,16 +9,16 @@ Time needed: 15 minutes
 
 What you get: Security tools used during your build/package phase can find security early on a standard build or pull request.
 
-## Set up dependency scans
+## Set Up Dependency Scans
 The dependency scanner operates locally, leveraging cloud data for lookups. It identifies vulnerable components and creates a software bill of materials (SBOM).
 
-### Install the scanner (done once)
+### Install the Scanner (Done Once)
 On a build server, run the following command:
 
 ```shell
 npm install -g @contrast/contrast-cli
 ```
-### Scanning your dependencies (periodic automation)
+### Scanning Your Dependencies (Periodic Automation)
 This step will give you a repeatable job to locate vulnerable dependencies.
 
 Locate the continuous integration job that compiles and packages your application. For trial use, you may also locate the build script (pom.xml or build.gradle) on your developer system.
@@ -31,7 +31,7 @@ Look for _____ in the output to ensure completion.
 Set up your static code scanner
 Static code scanning operates in the cloud, locating vulnerabilities for custom code, dependencies, and their interactions. It reports vulnerabilities along relevant code paths to guide understanding and fixes.
 
-## Set up static code analysis
+## Set Up Static Code Analysis
 Identify your project as described in the Create a scan project document.
 Scanning your code (periodic automation)
 Submit your JAR or WAR file as described in the Start a Scan document.

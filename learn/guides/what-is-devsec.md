@@ -16,13 +16,13 @@ Tools that support DevSec come in a few forms:
 - Tools that monitor and/or defend production applications:
   - Application Security Monitoring, a technique for observing and tracing security flows within an application.
 
-## Does DevSec fit into what I'm already doing?
+## Does DevSec Fit Into What I'm Already Doing?
 
 DevSec fits into **agile** styles because its automation enables teams to get an act on specific security results during any sprints.
 
 DevSec fits into **team topologies** because the tools can often be provided and managed by an enabling team, freeing developers (a stream-aligned team) from the cognitive burden of always knowing and worrying about security.
 
-## How do I apply DevSec?
+## How Do I Apply DevSec?
 
 You can do DevSec by adding automated security tooling into your regular development flow and making sure that results can be seen when they matter. 
 

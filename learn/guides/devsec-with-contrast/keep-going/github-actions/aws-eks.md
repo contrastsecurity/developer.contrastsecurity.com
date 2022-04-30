@@ -7,7 +7,7 @@ This article covers an ultra-quick way to get started with incorporating securit
 
 GitHub Actions are quickly becoming a staple in automating the application lifecycle. Whether you’re a part of an organization looking to scale workflows across the entire breadth of your business in the Cloud or a developer looking to get a leg up by incorporating new technologies and best practices into your automation stack, GitHub Actions and AWS have you covered.
 
-## Pre-Requisites
+## Prerequisites
 This step-by-step guide assumes you will be instrumenting Contrast Security with a containerized Java application that will be deployed to an Amazon Elastic Kubernetes Service (EKS) PaaS Environment.
 
 In order to work with the Contrast Security EKS GitHub Action, you will need the following in place:

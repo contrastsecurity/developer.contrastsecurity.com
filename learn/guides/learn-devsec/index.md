@@ -29,7 +29,7 @@ Specifically when writing software, developers are responsible for:
 - Middleware components shared between microservices
 - The way that the application interacts with everything else in the shared responsibility model.
 
-## Things you should not do
+## Things You Should Not Do
 
 Security is expansive and security fits into everything. Attacks often change and many attacks, while interesting, are not relevant to your application. Do not start with a vague or broad scope unrelated to things you are working on. Rather than aiming to "learn security," leverage automated tools to hone in what security means in your context and branch out from there.
 

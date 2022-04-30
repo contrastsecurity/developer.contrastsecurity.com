@@ -9,7 +9,7 @@ Speed of execution is a crucial to execution. Security tooling performs differen
 - When applications are tested, there is a moderate impact on performance due to the collection of detailed security information. Integrated Application Security Testing tools should be disabled during performance testing and turned on during other automated tests.
 - In production, Runtime Protection may add a few milliseconds per request. The performance impact is significantly less than the test phase because less data is collected.
 
-## During your secured build
+## During Your Secured Build
 At build time, two key aspects occur:
 - A local scanner inventories resolved dependencies, queries a service, and obtains a list of vulnerabilities that are present in each dependency. This may take a few seconds.
 - When a static scan is requested, a utility uploads the fully packaged application to a cloud service, which then performs a static scan. Scans may take a few minutes to complete, when results will become available. If desired, builds can wait for these results to fail a vulnerable build.
@@ -21,7 +21,7 @@ Performance considerations of the static scan:
    - Teams with frequent build cycles can run on deployment-oriented builds.
 - Scan results can be tracked and merged over time, for example to mark vulnerabilities with mitigating controls. This tracking can prevent these issues from failing future builds.
 
-## While you test
+## While You Test
 
 When applications are tested, an automated security agent is woven in to the runtime to watch execution and gather data. The agent contains all security intelligence, so users simply use the application as normal.
 
@@ -36,7 +36,7 @@ Performance considerations at test time:
 
 If desired, adding additional memory may improve application performance during the security tests.
 
-## While your app runs (in prod)
+## While Your App Runs (In Production)
 Production applications have  highest performance demand and cannot tolerate impact. While the production and test agents use similar technology, performance is significantly different because of what they do with it.
 
 Contrast Protect addresses production performance by changing the audience and adjusting the level of data collection. Unlike Test where the audience is a human, the agent becomes the audience and it gathers enough data for three goals:

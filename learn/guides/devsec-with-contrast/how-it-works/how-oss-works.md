@@ -3,7 +3,7 @@ title: How Dependency Scans Work
 ---
 
 Dependency scans work with build tools to list all dependencies referenced by the application.
-This list, also called an [SBOM](../../finding/sbom.md), is then compared against a list of known vulnerable libraries.
+This list, also called an [SBOM](../../learn-devsec/finding/sbom.md), is then compared against a list of known vulnerable libraries.
 
 ## How Runtime Dependency Scans Work
 

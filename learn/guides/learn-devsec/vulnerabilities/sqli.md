@@ -2,11 +2,11 @@
 title: SQL Injection
 ---
 
-## What is SQL Injection
+## What Is It?
 
 SQL Injection (SQLi) is a vulnerability where remote users can take control of a query sent to your database. Most often the attack aims to bypass authentication, access other records to steal data, or sometimes execute commands on the SQL server.
 
-## When can SQL Injection affect my application
+## When Can It Affect My Application?
 
 SQL Injection can affect your application when user input is placed as part of the query rather than as a parameter of the query.
 
@@ -18,7 +18,7 @@ BAD Query:
 SELECT * FROM users WHERE username=concatenatedUsername AND hashed_password=concatenatedPassword
 ```
 
-## How do I know if/where my application has a SQL Injection vulnerability
+## How Do I Know If and Where I Have This Vulnerability?
 
 Contrast Scan can evaluate your code and determine at build time if you introduce a SQL Injection vulnerability.
 
@@ -26,7 +26,7 @@ Contrast Assess can monitor your running code to determine if you have any SQL I
 
 Contrast Protect can defend any SQL Injection flaws against exploitation by monitoring the SQL APIs.
 
-## How do I fix SQL Injection
+## How Do I Fix It?
 
 There are two primary ways to fix SQL Injection:
 - Parameterize queries, adding input to the parameter instead of concatenating Strings into the query.
@@ -34,7 +34,7 @@ There are two primary ways to fix SQL Injection:
 
 When an analyzer detect the flaw in your application, it will suggest a more context-sensitive recommendation based on your code.
 
-## How do people attack SQL Injection flaws
+## How Do People Attack Using This Flaw?
 
 Most often attackers inject ' and -- or other encoded characters that become part of the query. Attemping a deny-list by watching for these characters is ineffective and difficult.
 

@@ -7,7 +7,7 @@ sidebar_position: 11
 
 Developers working in Java, Kotlin, or Scala can use the same agent.
 
-## No configuration Needed
+## No Configuration Needed
 
 When using Contrast to evaluate the security of your application, there is no configuration needed. The tech stack itself auto-detects the right integration and runtime language semantics used by the application as it loads its classes.
 

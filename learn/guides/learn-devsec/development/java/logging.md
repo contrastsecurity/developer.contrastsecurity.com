@@ -20,7 +20,7 @@ Many Java applications include more that one logger. In a [2020 study by York Un
 
 ## Logging Vulnerabilities
 
-The main type of vulnerability that impacts logs it [Log Injection](../../vulnerabilities/log-injection.mdx).
+The main type of vulnerability that impacts logs it [Log Injection](../../vulnerabilities/log-injection.md).
 
 In 2021, the logging framework Log4j, [Log4J2](https://nvd.nist.gov/vuln/detail/CVE-2021-45046), and [Logback](https://cve.report/CVE-2021-42550) were vulnerable to [Remote Code Execution](../../vulnerabilities/remote-code-execution.md), allowing attackers to take control over these servers when they logged user input. The vulnerable versions of log4j spanned from 2014 to 2021. Attackers could craft input that caused the application to load and execute remote classes over JNDI.
 

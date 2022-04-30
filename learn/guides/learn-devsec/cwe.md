@@ -4,11 +4,11 @@ title: CWE
 
 CWE is a [Common Weakness Enumeration](https://cwe.mitre.org/data/definitions/699.html). This represents the abstract vulnerability rather than a specific instance.
 
-## Can my application have a CWE
+## Can My Application Have a CWE?
 
 Yes. Most custom applications do not go through the entire CVE assignment process so it is easier to say something like, "this application has a [CWE name] vulnerability.
 
-## Relationship between CVE and CWE
+## Relationship Between CVE and CWE
 
 SQL Injection is a CWE because it is a type of vulnerability. When an application is vulnerable to SQL Injection, that instance of [SQL Injection](https://cwe.mitre.org/data/definitions/89.html) may be assigned a CVE. The cardinality between CWE to CVE is generally one-to-many.
 

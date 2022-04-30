@@ -9,7 +9,7 @@ WAFs are a network-level defense that typically operate on layer 7 HTTPS traffic
 - Bot detection
 - Network pattern analysis
 
-## WAF limitations
+## WAF Limitations
 
 The key limitation to WAFs is that they lack context to understand what's behind them and require tuning. While WAFs inspect application-level traffic, they lack visibility into application operation to see how the data is used or if it is used at all. For example, WAFs will alert operators of SQL Injection attacks for NoSQL applications where the attack is not relevant. When WAFs encounter indiscriminate vulnerability crawlers that try many attacks, they often overload any monitoring team with more alerts than a team can handle, even if that team leverages automation.
 

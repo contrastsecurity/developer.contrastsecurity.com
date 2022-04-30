@@ -1,6 +1,6 @@
 module.exports = {
   docsSidebar: [
-    // 'introduction',
+    'introduction',
     {
       type: 'category',
       label: 'Getting Started',

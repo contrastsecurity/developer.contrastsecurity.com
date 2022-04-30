@@ -18,7 +18,7 @@ Fat JARs or Uber JARs consolidate all dependencies into a single file. Rather th
 
 When a JAR is shaded, developers will commonly [relocate classes](https://maven.apache.org/plugins/maven-shade-plugin/examples/class-relocation.html) to a new namespace. This enables one library to use its own version of a component, while another library uses a different version of the library.
 
-### Example of when Shading/Relocation is necessary
+### Example of When Shading/Relocation is Necessary
 
 An application needs two libraries: A and B.
 

@@ -8,7 +8,7 @@ Time needed: 15 minutes<br/>
 Frequency: done once for automation<br/>
 What you get: high accuracy security results based from watching what your app did, with results as they happen.
 
-###  Integrate the agent into startup
+###  Integrate the Agent Into Startup
 
 1. Install the agent
   ```shell
