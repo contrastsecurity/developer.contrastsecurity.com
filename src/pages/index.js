@@ -39,7 +39,7 @@ export default function Home() {
       <HomepageHeader />
       <main class={clsx(styles.homepageFeatures)}>
       <header>
-        <h1>Securing code made easy for all developers</h1>
+        <h1>Securing Code Made Easy For All Developers</h1>
         <p>Contrast brings world-class enterprise-level security right to your doorstep, providing a fast, dependable, and seamless security experience.</p>
       </header>
         <HomepageFeatures />
