@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Contrast Security - ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="The Contrast Code Security Platform is the only unified platform to protect your complete software development lifecycle from development to production.">
       <HomepageHeader />
       <main class={clsx(styles.homepageFeatures)}>
       <header>

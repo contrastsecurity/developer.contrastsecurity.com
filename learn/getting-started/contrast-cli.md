@@ -1,5 +1,7 @@
 ---
 title: Contrast CLI
+description: The Contrast CLI enables fast and easy code scanning for AWS Lambda functions to protect your software with industry-leading insights
+keywords: [aws, lambda, application security, cli, free]
 ---
 
 ```mdx-code-block

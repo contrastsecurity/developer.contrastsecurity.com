@@ -95,6 +95,7 @@ const FontPreloadPlugin = require('webpack-font-preload-plugin');
 
   themeConfig:
     ({
+      metadata: [{name: 'keywords', content: 'owasp top 10, web application security solutions, coding security, application security, dynamic application security testing, app security, software security'}],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
