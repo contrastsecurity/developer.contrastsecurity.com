@@ -11,6 +11,13 @@ import TabItem from '@theme/TabItem';
 
 Scan your AWS Lambda functions and ensure security for policy permissions, dependencies and your code. Get started with three easy steps!
 
+## Step 0 &ndash; Prerequisites
+
+Verify that the AWS cli is installed. See https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html for details.
+```shell
+aws --version
+```
+
 ## Step 1 &ndash; Install
 
 Open a command-prompt or terminal, then install with [NPM](https://npmjs.com) or [Homebrew](https://brew.sh/):
